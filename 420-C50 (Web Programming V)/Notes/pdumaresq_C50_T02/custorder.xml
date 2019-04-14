@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="custorder.xsd" >
+  <Customers>
+    <Customer CustomerID="GREAL">
+      <CompanyName>Great Lakes Food Market</CompanyName>
+      <ContactName>Howard Snyder</ContactName>
+      <ContactTitle>Marketing Manager</ContactTitle>
+      <Phone>(503) 555-7555</Phone>
+      <FullAddress>
+        <Address>2732 Baker Blvd.</Address>
+        <City>Gatineau</City>
+        <Province>QC</Province>
+        <PostalCode>J8T T5T</PostalCode>
+        <Country>Canada</Country>
+      </FullAddress>
+    </Customer>
+    <Customer CustomerID="HUNGC">
+      <CompanyName>Hungry Coyote Import Store</CompanyName>
+      <ContactName>Yoshi Latimer</ContactName>
+      <ContactTitle>Sales Representative</ContactTitle>
+      <Phone>(503) 555-6874</Phone>
+      <Fax>(503) 555-2376</Fax>
+      <FullAddress>
+        <Address>City Center Plaza 516 Main St.</Address>
+        <City>Elgin</City>
+        <Province>ON</Province>
+        <PostalCode>G3G 3G3</PostalCode>
+        <Country>Canada</Country>
+      </FullAddress>
+    </Customer>
+  </Customers>
+  <Orders>
+    <Order>
+      <CustomerID>GREAL</CustomerID>
+      <EmployeeID>6</EmployeeID>
+      <OrderDate>1997-05-06T00:00:00</OrderDate>
+      <RequiredDate>1997-05-20T00:00:00</RequiredDate>
+      <ShipInfo ShippedDate="1997-05-09T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>3.35</Freight>
+        <ShipName>Great Lakes Food Market</ShipName>
+        <ShipAddress>2732 Baker Blvd.</ShipAddress>
+        <ShipCity>Eugene</ShipCity>
+        <ShipProvince>OR</ShipProvince>
+        <ShipPostalCode>97403</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+      </ShipInfo>
+    </Order>
+    <Order>
+      <CustomerID>GREAL</CustomerID>
+      <EmployeeID>8</EmployeeID>
+      <OrderDate>1997-07-04T00:00:00</OrderDate>
+      <RequiredDate>1997-08-01T00:00:00</RequiredDate>
+      <ShipInfo ShippedDate="1997-07-14T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>4.42</Freight>
+        <ShipName>Great Lakes Food Market</ShipName>
+        <ShipAddress>2732 Baker Blvd.</ShipAddress>
+        <ShipCity>Eugene</ShipCity>
+        <ShipProvince>OR</ShipProvince>
+        <ShipPostalCode>97403</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+      </ShipInfo>
+    </Order>
+    <Order>
+      <CustomerID>GREAL</CustomerID>
+      <EmployeeID>1</EmployeeID>
+      <OrderDate>1997-07-31T00:00:00</OrderDate>
+      <RequiredDate>1997-08-28T00:00:00</RequiredDate>
+      <ShipInfo ShippedDate="1997-08-05T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>116.53</Freight>
+        <ShipName>Great Lakes Food Market</ShipName>
+        <ShipAddress>2732 Baker Blvd.</ShipAddress>
+        <ShipCity>Eugene</ShipCity>
+        <ShipProvince>OR</ShipProvince>
+        <ShipPostalCode>97403</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+      </ShipInfo>
+    </Order>
+    <Order>
+      <CustomerID>HUNGC</CustomerID>
+      <EmployeeID>3</EmployeeID>
+      <OrderDate>1996-12-06T00:00:00</OrderDate>
+      <RequiredDate>1997-01-03T00:00:00</RequiredDate>
+      <ShipInfo ShippedDate="1996-12-09T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>20.12</Freight>
+        <ShipName>Hungry Coyote Import Store</ShipName>
+        <ShipAddress>City Center Plaza 516 Main St.</ShipAddress>
+        <ShipCity>Elgin</ShipCity>
+        <ShipProvince>OR</ShipProvince>
+        <ShipPostalCode>97827</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+      </ShipInfo>
+    </Order>
+  </Orders>
+</Root>

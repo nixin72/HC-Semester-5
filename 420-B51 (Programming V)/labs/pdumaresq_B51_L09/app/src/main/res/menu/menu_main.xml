@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.qc.cegep_heritage.pdumaresq.pdumaresq_b51_l09.MainActivity">
+    <item
+        android:id="@+id/mitmCreate"
+        android:orderInCategory="100"
+        android:title="Add Person"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mitmRetrieve"
+        android:orderInCategory="100"
+        android:title="Get People"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activities">
+        <item>Browser Internet</item>
+        <item>Play Music</item>
+        <item>Other Songs</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="sites">
+        <item>Google</item>
+        <item>YouTube</item>
+        <item>Baidu</item>
+        <item>Wikipedia</item>
+        <item>Yahoo!</item>
+        <item>Reddit</item>
+        <item>Amazon</item>
+        <item>Netflix</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+
+    <string-array name="SongList">
+        <item>Coldplay - Hymn for the Weekend</item>
+        <item>Coldplay - Something Just Like This</item>
+        <item>Coldplay - Paradise</item>
+        <item>Coldplay - Clocks</item>
+        <item>Coldplay - Yellow</item>
+        <item>Imagine Dragons - Radioactive</item>
+        <item>Imagine Dragons - Thunder</item>
+        <item>Imagine Dragons - Believer</item>
+        <item>Imagine Dragons – It\'s Time</item>
+        <item>Imagine Dragons - On Top of the World</item>
+        <item>Big Sugar - Sugar In My Coffee</item>
+        <item>Big Sugar - All Over Now</item>
+        <item>Big Sugar - Ride On</item>
+        <item>Big Sugar - Je Suis Cool</item>
+        <item>Big Sugar - Red Rover</item>
+        <item>Simon and Garfunkel - Mrs. Robinson</item>
+        <item>Simon and Garfunkel - El Condor Pasa</item>
+        <item>Simon and Garfunkel - Baby Driver</item>
+        <item>Simon and Garfunkel - Cecilia</item>
+        <item>Simon and Garfunkel - I Am A Rock</item>
+    </string-array>
+
+    <string-array name="SongSites">
+        <item>https://www.youtube.com/watch?v=YykjpeuMNEk\u0026index=1\u0026list=RDEMuf6htoZivPnz-ZIwGU0dDA</item>
+        <item>https://www.youtube.com/watch?v=FM7MFYoylVs\u0026index=2\u0026list=RDEMuf6htoZivPnz-ZIwGU0dDA</item>
+        <item>https://www.youtube.com/watch?v=1G4isv_Fylg\u0026index=3\u0026list=RDEMuf6htoZivPnz-ZIwGU0dDA</item>
+        <item>https://www.youtube.com/watch?v=d020hcWA_Wg\u0026index=11\u0026list=RDEMuf6htoZivPnz-ZIwGU0dDA</item>
+        <item>https://www.youtube.com/watch?v=yKNxeF4KMsY\u0026index=8\u0026list=RDQtb11P1FWnc</item>
+        <item>https://www.youtube.com/watch?v=ktvTqknDobU\u0026list=RDEMzMxPuaGyofN40xcgHuZAbw</item>
+        <item>https://www.youtube.com/watch?v=fKopy74weus\u0026list=RDEMzMxPuaGyofN40xcgHuZAbw\u0026index=2</item>
+        <item>https://www.youtube.com/watch?v=7wtfhZwyrcc\u0026index=3\u0026list=RDEMzMxPuaGyofN40xcgHuZAbw</item>
+        <item>https://www.youtube.com/watch?v=sENM2wA_FTg\u0026list=RDEMzMxPuaGyofN40xcgHuZAbw\u0026index=5</item>
+        <item>https://www.youtube.com/watch?v=w5tWYmIOWGk\u0026list=RDEMzMxPuaGyofN40xcgHuZAbw\u0026index=7</item>
+        <item>https://www.youtube.com/watch?v=RXsWz8_jaS0\u0026index=16\u0026list=PLB6593C487B24A322</item>
+        <item>https://www.youtube.com/watch?v=2D8MqUs6gaQ\u0026list=PLB6593C487B24A322\u0026index=15</item>
+        <item>https://www.youtube.com/watch?v=pCMKM6pL6Mk\u0026index=21\u0026list=PLB6593C487B24A322</item>
+        <item>https://www.youtube.com/watch?v=IxFeo-Lp1bk\u0026index=36\u0026list=PLB6593C487B24A322</item>
+        <item>https://www.youtube.com/watch?v=FkK9FWb_RDM\u0026index=15\u0026list=PLns8MJk_pNar84gEmDn3p-G7cOD1BsQKo</item>
+        <item>https://www.youtube.com/watch?v=9C1BCAgu2I8\u0026list=RDEMj7ObS6TgJ5zSOH9DUcVq8Q</item>
+        <item>https://www.youtube.com/watch?v=pey29CLID3I\u0026list=RDEMj7ObS6TgJ5zSOH9DUcVq8Q\u0026index=5</item>
+        <item>https://www.youtube.com/watch?v=J8i4Rp3qizk\u0026index=7\u0026list=RDEMj7ObS6TgJ5zSOH9DUcVq8Q</item>
+        <item>https://www.youtube.com/watch?v=a5_QV97eYqM\u0026index=8\u0026list=RDEMj7ObS6TgJ5zSOH9DUcVq8Q</item>
+        <item>https://www.youtube.com/watch?v=JKlSVNxLB-A\u0026list=RDEMj7ObS6TgJ5zSOH9DUcVq8Q\u0026index=9</item>
+    </string-array>
+
+</resources>

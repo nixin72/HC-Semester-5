@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a1523066.pdumaresq_b52_l04.CalculateTip"
+    tools:showIn="@layout/activity_calculate_tip">
+
+    <TableRow android:background="@color/colorPrimary">
+        <Button android:id="@+id/btnBack"
+            android:text="Back"
+            />
+
+    </TableRow>
+    <TableRow android:minHeight="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" >
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_span="2"
+            android:inputType="numberDecimal|number"
+            android:text="" />
+    </TableRow>
+    <TableRow android:minHeight="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <TextView
+            android:id="@+id/txtCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom %" />
+
+        <SeekBar
+            android:id="@+id/seekCustomPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="35"
+            android:progress="15"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:minHeight="30dp"
+        >
+
+        <TextView />
+
+        <TextView
+            android:id="@+id/txt15Percent"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#EEE"
+            android:text="15%"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/txtCustomPercent"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#EEE"
+            android:text="Default: 15%"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </TableRow>
+
+    <TableRow android:minHeight="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:id="@+id/txtTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Tip: "
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/txt15Tip"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:background="#BBB"
+            android:layout_margin="10dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/txtCustomTip"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="#BBB"
+            android:text="0" />
+
+    </TableRow>
+    <TableRow android:minHeight="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/txt15Total"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:background="#BBB"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/txtCustomTotal"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#BBB"
+            android:text="0" />
+    </TableRow>
+
+
+</TableLayout>

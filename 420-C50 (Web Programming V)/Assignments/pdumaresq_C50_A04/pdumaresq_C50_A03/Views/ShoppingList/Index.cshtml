@@ -1,0 +1,142 @@
+﻿@model IEnumerable<pdumaresq_C50_A03.Models.Item>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>Shopping List</h1>
+    <br />
+    <p><a href="/ShoppingList/Create" id="btnCreate" class="btn btn-primary btn-lg">Create New &raquo;</a></p>
+</div>
+
+<style>
+    .table tr:nth-child(2n+2) {
+        background: #EEE;
+    }
+</style>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemQuantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr id="@item.ItemName">
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemName)
+        </td>
+        <td class="item-category">
+            @Html.DisplayFor(modelItem => item.ItemCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemQuantity)
+        </td>
+        <td class="price">
+            @Html.DisplayFor(modelItem => item.ItemPrice)
+        </td>
+        <td>            
+            @Html.ActionLink("Edit", "Edit", new { name=item.ItemName }) |
+            <a class="details" >Details</a> |
+            <a class="delete" >Delete</a>
+        </td>
+    </tr>
+}  
+
+</table>
+
+<div id="delete"></div>
+
+<hr />
+<table>
+    <tr>
+        <th>Total Price: &nbsp;&nbsp;&nbsp;</th>
+        <td id="totalPrice"></td>
+    </tr>
+</table>
+
+<div id="details" style="display: none;">
+    <div style="text-align: right;">
+        <span><strong>Name: </strong></span>
+        <br />
+        <span><strong>Category: </strong></span>
+        <br />
+        <span><strong>Price: </strong></span>
+        <br />
+        <span><strong>Quantity: </strong></span>
+    </div>
+    <div style="text-align: left;">
+        <span id="txtName"></span>
+        <br />
+        <span id="txtCategory"></span>
+        <br />
+        <span id="txtPrice"></span>
+        <br />
+        <span id="txtQuantity"></span>
+    </div>    
+</div>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script>
+    $(function () {
+        $(".item-category").each((k, el) => {
+            el.innerText = el.innerText.replace("_", " ");
+        });
+
+        $(".delete").each((k, el) => {
+            el.addEventListener("click", e => {
+                $('#delete').load('@Url.Action("Delete", "ShoppingList")' + "?name=" + e.path[2].id)
+            });
+        });
+
+        $(".details").each((k, el) => {
+            el.addEventListener("click", e => {
+                $.ajax({url: "/ShoppingList/Details",   dataType: "json",
+                    type: "POST", data: { name: e.target.parentElement.parentElement.id },
+                }).done(data => {
+                    txtName.innerText = " " + data["ItemName"];
+                    txtCategory.innerText = " " + data["ItemCategory"];
+                    txtPrice.innerText = " $" + data["ItemPrice"];
+                    txtQuantity.innerText = " " + data["ItemQuantity"];
+
+                    $("#details").dialog({ title: "Item",
+                        modal: true,
+                        buttons: {
+                            Ok: function () {
+                                $(this).dialog("close");
+                                $("#details").css("display", "none");
+                            }
+                        }
+                    });
+
+                    $("#details").css("display", "flex");
+                }).fail(err => console.log(err));
+            });
+        });
+
+        (() => {
+            let price = 0;
+            $(".price").each((k, i) => {
+                price += parseFloat(i.innerText) * parseFloat(i.parentElement.childNodes[5].innerText);
+                i.innerText = "$" + i.innerText;
+            });
+
+            totalPrice.innerText = "$" + price.toFixed(2);
+        })();
+    });
+</script>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <date>01-01-2001</date>
+  <customer customerId="c1" customerName="John Smith">
+      <order orderId="o100"/>
+  </customer>
+  <customer customerId="c2" customerName="William Jones">
+       <order orderId="o101"/>
+  </customer>
+</message>

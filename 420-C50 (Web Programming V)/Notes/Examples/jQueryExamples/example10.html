@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Get XML</title>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $.ajax({
+        type: "GET",
+        url: "books.xml",
+        dataType: "xml",
+        success: xmlParser
+    });
+});
+
+function xmlParser(xml) {
+
+    $(xml).find("book").each(function () {
+
+        $(".main").append('<div class="book"><div class="title">' + $(this).find("title").text() + 
+		'</div><div class="author">' + $(this).find("author").text() + 
+		'</div><div class="date">Published ' + $(this).find("year").text() + '</div></div>');
+        $(".book").fadeIn(3000);
+
+    });
+
+
+
+}
+</script>
+
+<style> 
+.main{
+width:1000px;
+margin:0 auto;
+height:130px;
+}
+ 
+.book{
+width:208px;
+margin:10px;
+border:1px #dedede solid;
+padding:5px;
+display:none;
+}
+
+.title{margin-bottom:6px;}
+ 
+.author{font-size:11px; font-family:Geneva, Arial, Helvetica, sans-serif;}
+
+.date{font-size:10px; color:#999; margin-top:4px;}
+
+</style> 
+
+</head>
+<body>
+
+<div class="main">
+</div>
+
+</body>
+</html>

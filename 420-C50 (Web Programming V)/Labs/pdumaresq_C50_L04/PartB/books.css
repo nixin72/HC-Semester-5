@@ -1,0 +1,48 @@
+* {
+	display: block;
+}
+
+title {
+	color: blue;
+	font-family: Arial Helvetica Sans-Serif;
+	font-size: 2em;
+}
+
+title:before { content: "Title: " }
+pages:before { content: "# pages: " }
+preface:before { 
+	content: "Preface: ";
+	font-weight: bold;
+}
+appendix:before { 
+	content: "Appendix: ";
+	font-weight: bold;
+}
+authors:before { 
+	content: "Authors: ";
+	font-size: 2em;
+	font-weight: bold;
+}
+
+chapters:before {
+	content: "Chapters: ";
+	font-weight: bold;
+}
+
+
+firstName, lastName {
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: "Times New Roman";
+	display: inline;
+	margin-left: 1%;
+}
+
+chapter {
+	font-size: .9em;
+}
+
+chapter, preface, appendix  {
+	margin-left: 1%;
+}
+

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar .navbar-focus:focus, .navbar .navbar-toggle:hover {
+	background-color: transparent;	
+}
+
+.navbar navbar-toggle {
+	border: none;
+}
+
+.navbar-toggle span.icon-bar {
+	transition: all 0.15s;	
+}
+
+.navbar-collapse.collapse.in {
+	margin-left: auto;
+	margin-right: auto;	
+}
+.navbar .container {
+	width: 100% !important;
+}
+
+.dropdown-menu {
+	background-color: #0B486B !important;
+}
+
+li .open a{
+	color: red;	
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+body {
+	background-color: #3B8686 !important;
+	color: white;
+}
+
+.container .navbar-collapse ul li a {
+	width: 100% !important;;
+	text-align: center;
+}
+
+.container .navbar-collapse ul li a:focus {
+	color: #0B486B !important;
+}
+
+.navbar {
+	background-color: #0B486B;
+	color: white !important;
+	margin-bottom: 0px !important;
+}
+
+#navbar {
+	width: 100%;
+}
+
+.navbar ul li a:hover {
+	color: #0B486B !important;
+}
+
+#page {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 50px;
+}
+
+#banner {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+#content {
+	color: white;
+    padding: 15px;
+	font-size: 15px;
+	box-shadow: 8px 8px 4px #357878;
+	border-top: solid 1px white;
+	border-left: solid 1px white;
+	border-radius: 5px;
+}
+
+.footer {
+	color: white;
+	text-align: center;	
+}
+
+a {
+    font-weight: bold;
+	color: white !important;
+	font-style: underline;
+}
+
+.navbar a {
+	color: white;
+}
+#breadcrumb {
+	border: solid 1px white;
+}
+
+#breadcrumb p{
+    margin: 2px 0px;
+    color: white;
+    padding-left: 15px;
+	}
+
+@media screen and (max-width: 768px) {
+	#page {
+		width: 100%;	
+	}
+	
+}

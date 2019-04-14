@@ -1,0 +1,74 @@
+body, html {
+	margin: 0;
+	background-color: #f8f8f8;
+}
+
+header {
+	width: 100%;
+	margin: 0 0 15px 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #008598;
+	box-shadow: 0 10px 10px #aaa;
+	color: white;
+	font-family: Helvetica,Arial,sans-serif;
+}	
+
+header ul { margin-top: 20px; }
+header ul li { display: inline; }	
+header a { color: white; text-decoration: none; }
+header a:hover { color: white; text-decoration: underline; }
+content > div:first-child { margin-top: 3%; }
+#workOrderAll, #invoiceAll { display: flex; }			
+#workOrderLabels, #invoiceLabels {text-align: right;}
+#workOrderInfo, #invoiceInfo {text-align: left;}
+
+content div {
+	padding: 7px 0;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: #f8f8f8;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#ddlClients {
+	padding: 1%;
+	border-radius: 5px;
+}
+
+input, button {
+	width: 100px;
+	padding: 1%;
+	border-radius: 5px;
+	border: thin solid grey;
+}
+
+@media screen and (min-width:1200px) {
+	input, button {
+		width: 100px;
+		padding: 5px;
+		border-radius: 5px;
+		border: thin solid grey;
+	}
+	
+	#ddlClients {
+		padding: 5px;
+		border-radius: 5px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.break { display: block; }
+	
+	#workOrderAll, #invoiceAll { display: flex; }			
+	#workOrderLabels, #invoiceLabels { width: 40%; margin-right: 0; }
+	#workOrderInfo, #invoiceInfo { width: 50%; margin-left: 0;}
+}
+
+@media screen and (max-width:436px) {
+	header div { display: none; }
+	header:before { content: "PD 420-C50 A01"; }
+	header { padding-top: 5%; }	
+	header ul { margin-top: 0; }
+}

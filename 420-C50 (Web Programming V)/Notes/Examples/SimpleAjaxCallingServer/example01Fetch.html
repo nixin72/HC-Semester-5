@@ -1,0 +1,40 @@
+<!DOCTYPE html">
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Easy AJAX</title>
+
+</head>
+
+<body>
+<form name='myForm'>
+	<p>Name: <input type='text' name='username' id="username"/><br/>
+	Time: <input type='text' id='time' name='time'/></p>
+</form>
+</body>
+<script>
+var doRequest = function() {
+	fetch('servertime.php', {
+		method: 'get'
+	}).then(response => {
+			console.log('Response object: ', response);
+//			document.getElementById("time").value = response.text();
+//			var t=response.text();
+//			console.log('Response promise: ', response.text());
+			return response.text();
+		}).then(text => {
+			document.getElementById("time").value = text;
+//			document.querySelector("#time").value = text;
+	}).catch(error => {
+		console.log('Request failed: ', error);
+	})
+}
+
+var el = document.getElementById("username");
+
+el.addEventListener('change', doRequest);
+
+</script>
+
+</html>

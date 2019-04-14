@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Easy XML Read</title>
+
+</head>
+
+<body>
+<div>
+<article>
+</article>
+</div>
+</body>
+
+<script>
+
+var showTitle = function(xmlVal) {
+	let txt = xmlVal.getElementsByTagName("title");
+	console.log(txt);
+	for (let i=0; i<txt.length; i++) {
+		console.log(txt[i].firstChild);
+	}
+}
+
+var showTitleAuthor = function(xmlVal) {
+	let txt = xmlVal.getElementsByTagName("book");
+	for (let i=0; i<txt.length; i++) {
+		let bkTitle = txt[i].getElementsByTagName("title");
+		let authors = txt[i].getElementsByTagName("author");
+		for (let j=0; j<bkTitle.length; j++) {
+			console.log(bkTitle[j].firstChild);
+		}
+		for (let k=0; k<authors.length; k++) {
+			console.log(authors[k].firstChild.data);
+		}
+	}
+}
+
+var showInfo = function(xmlVal) {
+	let txt = xmlVal.getElementsByTagName("book");
+	for (val in txt) {
+		console.log(txt[val]);
+	}; 
+}
+
+try {
+	xhttp = new XMLHttpRequest();
+} catch(e) {
+	console.log("Error creating request:",e);
+}
+
+if (xhttp) {
+	xhttp.addEventListener("readystatechange", function() {
+		if (xhttp.readyState == 4) {
+			let vals = xhttp.responseXML;
+			console.log(vals);
+			showTitle(vals);
+			showTitleAuthor(vals);
+//			showInfo(xhttp.vals);
+		}
+	});
+	xhttp.open("get", " books.xml");
+	xhttp.send();
+}
+</script>
+
+</html>

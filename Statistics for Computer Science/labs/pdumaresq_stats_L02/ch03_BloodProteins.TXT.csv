@@ -1,0 +1,11 @@
+Blood Type,Protein,Count,
+Type A,present,5,
+Type A,absent,35,
+Type B,present,20,
+Type B,absent,40,
+,,,
+,,,
+,Type A,Type B,Total
+Present ,5,20,25
+Absent,35,40,75
+Total,40,60,100

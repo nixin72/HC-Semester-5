@@ -1,0 +1,42 @@
+@font-face {
+	font-family: Fira-Sans;
+	src: url('./styles/fonts/FiraSans-Regular.woff') format('woff');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Fira-Sans;
+	src: url('./styles/fonts/FiraSans-Medium.woff') format('woff');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Fira-Sans;
+	src: url('./styles/fonts/FiraSans-Bold.woff') format('woff');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Fira-Sans;
+	src: url('./styles/fonts/FiraSans-Heavy.woff') format('woff');
+	font-weight: 900;
+}
+
+@base-font-family: Fira-Sans;
+@base-backup-font1: serif;
+
+.base-font{
+	font-family: @base-font-family, @base-backup-font1;
+}
+.base-font-medium{
+	.base-font;
+	font-weight: 500;
+}
+.base-font-bold{
+	.base-font;
+	font-weight: 700;
+}
+.base-font-black{
+	.base-font;
+	font-weight: 900;
+}
+.header-font {
+	.base-font;
+}

@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+
+.invoiceInfo {
+	justify-content: center;
+}
+
+.stuff {
+	margin: auto;
+}
+
+.stuff div {
+	margin: 1% 1%;
+	text-align: center;
+}
+
+.clientInfo {
+	margin: 1% 1%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.staff div:first-child { width: 50%; }
+.staff div:last-child {	width: 90%; }
+
+table tr:nth-child(even) { background-color: #bfefff; }
+table tr:nth-child(odd) { background-color: #CCC; }
+td { padding: 1%; }

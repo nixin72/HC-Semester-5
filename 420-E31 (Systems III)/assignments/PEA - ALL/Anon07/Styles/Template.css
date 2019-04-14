@@ -1,0 +1,319 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4f5ff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    float: right;
+    width: 7.9em;
+    height: 5em;
+}
+
+.inContentLink {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.inContentLink:hover {
+    color: Black;
+}
+
+#banner {
+    float: left;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    width: 96%;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    background-color: white;
+    background-image: url("../Media/Images/banner.jpg");
+}
+
+#headerTitle{
+    font-size: 3em;
+}
+
+.headerName {
+    font-size: 1.5em;
+}
+
+#bodyDiv {
+    width: 96%;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+#navigation {
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+
+.icon {
+    width: 22px;
+    height: 20px;
+}
+.iconDiv {
+    width: 22px;
+    height: 20px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.lists {
+    list-style: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.sublists {
+    list-style: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.listItems {
+    font-size: 1.25em;
+    display: block;
+    padding-left: 1em;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+}
+
+.listItems li {
+    font-size: 0.9em;
+    display: block;
+    padding-left: 2em;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+}
+
+#content {
+    float: right;
+    padding: 2em;
+    padding-top: 1em;
+    width: 70%;
+    background-color: white;
+}
+
+#content h2 {
+    border-bottom: solid thin black;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: inline-block;
+    border-top: solid thin #939393;
+    padding-top: 0.75em;
+    padding-bottom: 2em;
+    font-size: 0.8em;
+}
+
+.dropShadow {
+    -webkit-box-shadow: -5px 6px 17px 0px rgba(102,102,102,1);
+    -moz-box-shadow: -5px 6px 17px 0px rgba(102,102,102,1);
+    box-shadow: -5px 6px 17px 0px rgba(102,102,102,1);
+}
+
+@media only screen and (max-width: 768px) {
+
+    #logo {
+        display: none;
+    }
+
+    .listItems {
+        border-bottom: solid thin lightgray;
+    }
+
+    #navigation {
+        float: left;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    #content {
+        float: left;
+        width: auto;
+        padding: 1em;
+    }
+
+    #bodyDiv {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #banner {
+        float: left;
+        margin-bottom: 2em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10em;
+        margin-top: 0em;
+        font-size: 0.4em;
+    }
+
+    .listItems:active {
+        font-size: 1.25em;
+        display: block;
+        padding-left: 1em;
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        background-color: #daf7ff;
+    }
+
+    .listItems li:active {
+        font-size: 0.9em;
+        display: block;
+        padding-left: 1em;
+        padding-bottom: 0.6em;
+        padding-top: 0.6em;
+        background-color: #c0dde5;
+        border-radius: 200px 0px 0px 200px;
+        -moz-border-radius: 200px 0px 0px 200px;
+        -webkit-border-radius: 200px 0px 0px 200px;
+    }
+
+    .headerName {
+        font-size: 2em;
+    }
+
+    .sublists li {
+        border-top: solid thin lightgray;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+
+    .listItems {
+        font-size: 1.2em;
+    }
+
+    .listItems li {
+        font-size: 0.86em;
+    }
+
+    #navigation {
+        width: 29%;
+    }
+
+    #content {
+        width: 60%;
+    }
+
+    .listItems:hover {
+        color: darkblue;
+        font-size: 1.2em;
+        display: block;
+        padding-left: 1em;
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        background-color: #daf7ff;
+    }
+
+    .listItems li:hover{
+        color: darkblue;
+        font-size: 0.86em;
+        display: block;
+        padding-left: 2em;
+        padding-bottom: 0.6em;
+        padding-top: 0.6em;
+        background-color: #c0dde5;
+        border-radius: 200px 0px 0px 200px;
+        -moz-border-radius: 200px 0px 0px 200px;
+        -webkit-border-radius: 200px 0px 0px 200px;
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+
+    #navigation {
+        width: 25%;
+    }
+
+    #content {
+        width: 65%;
+    }
+
+    .listItems:hover {
+        color: darkblue;
+        font-size: 1.25em;
+        display: block;
+        padding-left: 1em;
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        background-color: #daf7ff;
+    }
+
+    .listItems li:hover{
+        color: darkblue;
+        font-size: 0.9em;
+        display: block;
+        padding-left: 2em;
+        padding-bottom: 0.6em;
+        padding-top: 0.6em;
+        background-color: #c0dde5;
+        border-radius: 200px 0px 0px 200px;
+        -moz-border-radius: 200px 0px 0px 200px;
+        -webkit-border-radius: 200px 0px 0px 200px;
+    }
+
+}
+
+@media only screen and (min-width: 1201px){
+
+    #navigation {
+        width: 20%;
+    }
+
+    #content {
+        width: 73%;
+    }
+
+    .listItems {
+        font-size: 1.3em;
+    }
+
+    .listItems li {
+        font-size: 0.93em;
+    }
+
+    .listItems:hover {
+        color: darkblue;
+        font-size: 1.3em;
+        display: block;
+        padding-left: 1em;
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+        background-color: #daf7ff;
+    }
+
+    .listItems li:hover{
+        color: darkblue;
+        font-size: 0.93em;
+        display: block;
+        padding-left: 2em;
+        padding-bottom: 0.6em;
+        padding-top: 0.6em;
+        background-color: #c0dde5;
+        border-radius: 200px 0px 0px 200px;
+        -moz-border-radius: 200px 0px 0px 200px;
+        -webkit-border-radius: 200px 0px 0px 200px;
+    }
+}

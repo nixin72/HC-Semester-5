@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShoppingList>
+  <ShoppingEntry>
+    <Product Category="Beverage">
+      <Name>test</Name>
+      <Price>2</Price>
+    </Product>
+    <Quantity>2</Quantity>
+  </ShoppingEntry>
+</ShoppingList>

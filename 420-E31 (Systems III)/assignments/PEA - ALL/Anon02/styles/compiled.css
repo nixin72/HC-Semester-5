@@ -1,0 +1,320 @@
+@font-face {
+    font-family: Fira-Sans;
+    src: url('./fonts/FiraSans-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Fira-Sans;
+    src: url('./fonts/FiraSans-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Fira-Sans;
+    src: url('./fonts/FiraSans-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Fira-Sans;
+    src: url('./fonts/FiraSans-Heavy.woff') format('woff');
+    font-weight: 900;
+}
+
+.base-font {
+    font-family: Fira-Sans, serif;
+}
+
+.base-font-medium {
+    font-family: Fira-Sans, serif;
+    font-weight: 500;
+}
+
+.base-font-bold {
+    font-family: Fira-Sans, serif;
+    font-weight: 700;
+}
+
+.base-font-black {
+    font-family: Fira-Sans, serif;
+    font-weight: 900;
+}
+
+.header-font {
+    font-family: Fira-Sans, serif;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-flow: column nowrap;
+}
+
+.flex-fixed-child {
+    flex: none;
+}
+
+.flex-y-scrollable-child {
+    overflow-y: scroll;
+    flex: auto;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-flow: column nowrap;
+}
+
+nav#nav-bar {
+    flex: none;
+}
+
+main#main-content {
+    overflow-y: scroll;
+    flex: auto;
+}
+
+@media (max-width: 800px) {
+    main#main-content {
+        overflow-y: visible;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Fira-Sans, serif;
+}
+
+html,
+body {
+    font-family: Fira-Sans, serif;
+    font-size: 100%;
+    z-index: -4;
+}
+
+html table,
+body table {
+    border-collapse: collapse;
+    border: 1px #dfe2e5 solid;
+}
+
+html table>tbody>tr>th,
+html table>tbody>tr>td,
+html table>thead>tr>th,
+html table>thead>tr>td,
+body table>tbody>tr>th,
+body table>tbody>tr>td,
+body table>thead>tr>th,
+body table>thead>tr>td {
+    padding: 0.5em;
+    border: 1px #dfe2e5 solid;
+}
+
+html table>tbody>tr:nth-child(even),
+html table>thead>tr:nth-child(even),
+body table>tbody>tr:nth-child(even),
+body table>thead>tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+html table>thead,
+body table>thead {
+    border-bottom: 1px #dfe2e5 solid;
+    border-bottom-width: 2px;
+}
+
+main {
+    padding: 3em 20%;
+}
+
+main a {
+    font-weight: 500;
+    color: #7485B0;
+    text-decoration: none;
+}
+
+main a:visited {
+    color: #7485B0;
+}
+
+main a:focus,
+main a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main a:active {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+main hr {
+    border-style: dashed;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main footer#main-footer {
+    border-top: solid thin #201821;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    font-size: 0.75em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    color: #ffffff;
+    background-color: #9a72a1;
+}
+
+nav header h1,
+nav header h2,
+nav header h3,
+nav header h4,
+nav header h5,
+nav header h6 {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin: 0px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em;
+    text-align: center;
+}
+
+nav header h1 img,
+nav header h2 img,
+nav header h3 img,
+nav header h4 img,
+nav header h5 img,
+nav header h6 img {
+    padding-left: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+nav div#nav-container {
+    text-align: center;
+}
+
+nav div#nav-container .nav-links {
+    border-bottom: #201821 0.2em solid;
+    background-color: #826087;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+}
+
+nav div#nav-container .nav-links .nav-sub-container {
+    display: none;
+}
+
+nav div#nav-container .nav-links li {
+    display: inline-block;
+    font-family: Fira-Sans, serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+nav div#nav-container .nav-links .nav-links-sub[jsenabled="false"] {
+    display: inline;
+    border-bottom: none;
+}
+
+nav div#nav-container .nav-links .nav-links-sub[jsenabled="true"] {
+    background-color: #201821;
+}
+
+nav div#nav-container .nav-links .nav-links-sub[jsenabled="true"] a::before {
+    top: 0%;
+    height: 0%;
+    background-color: #826087;
+}
+
+nav div#nav-container .nav-links .nav-links-sub[jsenabled="true"] a:focus::before,
+nav div#nav-container .nav-links .nav-links-sub[jsenabled="true"] a:hover::before {
+    height: 100%;
+}
+
+nav div#nav-container .nav-links a {
+    color: inherit;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+nav div#nav-container .nav-links a::before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    top: 100%;
+    left: 0;
+    background-color: #201821;
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: height 0.125s, top 0.125s;
+    transition: height 0.125s, top 0.125s;
+}
+
+nav div#nav-container .nav-links a:focus::before,
+nav div#nav-container .nav-links a:hover::before {
+    height: 100%;
+    top: 0%;
+}
+
+nav div#nav-container .nav-links a.sectionHighlight,
+nav div#nav-container .nav-links li.sectionHighlight {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+    main#main-content {
+        padding: 1em 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show-block {
+        display: block;
+    }
+    .mobile-show-inline {
+        display: inline;
+    }
+    .mobile-show-inline-block {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 500px) {
+    nav#nav-bar > header {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    nav#nav-bar > header h1,
+    nav#nav-bar > header h2 {
+        text-align: left;
+    }
+    nav#nav-bar > header h1 img,
+    nav#nav-bar > header h2 img {
+        float: right;
+    }
+}

@@ -1,0 +1,231 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+/* Body Structure  */
+html{
+    position:  relative ;
+        min-height: 100%;
+
+}
+body{
+    overflow-x: hidden ;
+    
+}
+
+footer{
+    width:100% !important ; 
+    bottom: 0 ; 
+    padding: 2% ; 
+    background-color: #223940; 
+}
+
+.bigHeader{
+    width:100% ; 
+    margin: auto  0 auto 0 ; 
+    height:200px ;
+    background: url('../pictures/banner.jpeg');
+    margin-top:66px ;
+    background-size: cover ;
+    background-attachment: fixed ;
+}
+
+.logoTitle{
+        font-family: 'Anton', sans-serif;
+        font-size:500% !important;
+        color:#055757 ;
+        padding-top:1px ;
+        padding-bottom: 3px ;
+        padding-left: 40px ;
+text-shadow: 4px 4px 30px rgba(255, 255, 255, 0.3);}
+
+.logoDesc{
+        font-family: 'Anton', sans-serif;
+        font-size:35% !important;
+        color:white;
+        display: block ;
+text-shadow: 4px 7px 30px black;
+
+}
+
+.banner_cover{
+    width:100% ;
+    height:100% ;
+    margin:0 auto 0 auto  ;
+    background:rgba(215, 255,255, 0.2) ;
+}
+
+
+.copyNotice{
+    color:white ;
+    font-size:110% ;
+    
+}
+
+/* Banner CSS */
+
+.banner{
+    top:0 ; 
+    margin:0 auto 0 auto ; 
+    width:100% ;
+    min-height:66px ;
+    padding: 0.1% ;
+    padding-left: 1% ; 
+    background-color:#1A3940 ;
+    text-align: right ;
+    padding-right:15px ;
+     position: fixed ; 
+    z-index:3000 ;
+}
+
+.btnMenu{
+    font-size: 170% ;
+    color:black ;
+    position: fixed ;
+    z-index:4000    ;
+    margin-top:6px ;
+    margin-left: 0  ;
+    margin-right:auto ;
+    left: 0 ;
+    visibility: hidden ; /* default */
+    background:#ECF0F1;
+    padding:1% ;
+    -webkit-box-shadow: 0px 1px 32px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 32px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 32px -7px rgba(0,0,0,0.75);
+    top:5px ;
+}
+.btnMenu:visited{color:black;}
+.btnMenu:hover{color:#0092AF ;}
+.logo{width:50px ;height: auto;}
+.logoText{
+    font-size:200% ;
+    position: relative ;
+    margin-top:20px ;
+}
+
+.profile{
+    width:120px ;
+    height:120px ;
+    border:solid 1px #00C4DB ; 
+    border-radius: 50% ;
+    float: right ;
+    background-image:url('../pictures/profile.jpg') ;
+    background-size:cover ;
+}
+
+
+
+/* Page Structure  */
+
+
+.page_title{
+    text-align: left ;
+    font-size:170% !important ;
+}
+
+.small{
+    font-size:85% !important ;
+}
+
+.header_section{
+    border-bottom: solid 1px #006E7B ;
+    padding: 2% ;
+    margin-bottom: 15px ;
+    
+}
+
+.dropdown-menu  {
+    padding: 2%;
+    background: #35727F ;
+    font-size:110% ;
+}
+
+.dropdown-menu>li>a{
+    color:white ;
+}
+
+/* Defaults  */
+ul ul, ol ul{ list-style: none !important; /* Remove list bullets */}
+a{text-decoration:none ;}
+p{font-size: 110% !important ; }
+.dropdown{
+    background:transparent ;
+    margin-top: 1% ;    
+}
+
+.dropdown-toggle{
+    color:white ;
+    font-size:110% ;
+}
+
+/* Utilities */
+
+img{
+    width: 100% ;
+    height:auto ;
+}
+
+.quoteAuthor{
+    background: none ;
+}
+.center{margin:0 auto 0 auto ;}
+
+.line{
+    width: 100% ;
+    margin-top:5px ;
+    border-top:solid 1px #006E7B ; 
+}
+
+.pull-arrow-right{
+    float:right ;
+    padding: 1% ;
+    padding-top: 10px ;
+    margin-right:70px ;
+}
+
+.make-me-center{margin: 0 auto 0 auto ; text-align: center ;}
+/* .make-me-fix{position: fixed !important;} */
+.noMobile{
+    visibility: hidden !important ;
+}
+
+
+.description{
+    font-size:110% !important;
+}
+
+.nav-hide{
+    display: initial ;
+}
+
+.red{border:solid 1px red ;}
+
+
+
+
+/*overrides*/
+blockquote{
+
+border-left:solid 2px #055C5C ; }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+.nav-hide{
+    visibility:hidden !important;
+    display: none ;
+}
+
+.btnMenu{
+    visibility: visible !important;
+}
+
+.noMobile{
+    visibility: visible !important ; /* Default */
+}
+}
+
+
+

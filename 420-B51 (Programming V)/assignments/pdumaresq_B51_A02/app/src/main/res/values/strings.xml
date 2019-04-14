@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">pdumaresq_B51_A02</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play_game">PlayGame</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_select_difficulty">SelectDifficulty</string>
+
+    <string name="main_title">Math Minute</string>
+    <string name="main_play">Play Game</string>
+    <string name="main_about">About</string>
+
+    <string name="diff_select_difficulty">Select Difficulty</string>
+    <string name="diff_easy">Easy</string>
+    <string name="diff_medium">Medium</string>
+    <string name="diff_hard">Hard</string>
+    <string name="diff_expert">Expert</string>
+
+    <string name="game_time">Time: 3:00</string>
+    <string name="game_correct">Correct Answers: 0</string>
+    <string name="game_reset">Reset Game</string>
+    <string name="game_0">0</string>
+    <string name="game_1">1</string>
+    <string name="game_2">2</string>
+    <string name="game_3">3</string>
+    <string name="game_4">4</string>
+    <string name="game_5">5</string>
+    <string name="game_6">6</string>
+    <string name="game_7">7</string>
+    <string name="game_8">8</string>
+    <string name="game_9">9</string>
+    <string name="game_neg">-</string>
+    <string name="game_eq">=</string>
+    <string name="game_back">&lt;-</string>
+
+    <string name="about_title">Math Minute V1.0</string>
+    <string name="about_author">Philip Dumaresq</string>
+    <string name="about_date_completed">October 30th 2017</string>
+    <string name="about_course">420-B51 / Programming V</string>
+    <string name="about_desc">
+        In this game, simple arithmetic problems will appear on the screen. You must enter the
+        result of the problem. After the result is entered, the game will determine if the answer
+        is correct. The game will keep displaying new problems and accepting results for a given
+        amount of time.
+    </string>
+</resources>

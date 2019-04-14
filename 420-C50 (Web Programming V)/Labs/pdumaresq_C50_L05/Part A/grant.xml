@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gr:grant grantNum="NIHCCC-4481-05" funding="federal" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://uhosp.edu/grant/ns grant.xsd" 
+	xmlns:gr="http://uhosp.edu/grant/ns" >
+	
+	<title>NIH Clinical Cancer Basic Research Grant</title>
+	<agency>National Institute of Health</agency>
+	<department>University Hospital Clinical Cancer Center</department>
+	<summary>Basic NIH support funding for current and future Phase 1 through
+            Phase 3 cancer clinical trials.</summary>
+	<initiated>2006-07-01</initiated>
+	<expires>2010-06-30</expires>
+	<coordinator>Alice Walters</coordinator>
+</gr:grant>

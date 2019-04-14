@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Name:     Philip Dumaresq
+  Course:   420-C50
+  Lab:      L07
+-->
+<bookstore>
+	<book category="cooking">
+    <id>1</id>
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="children">
+    <id>2</id>
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+	<book category="web">
+    <id>3</id>
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<year>2003</year>
+		<price>49.99</price>
+	</book>
+	<book category="web" cover="paperback">
+    <id>4</id>
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+		<price>39.95</price>
+	</book>
+	<book category="fantasy">
+    <id>5</id>
+		<title lang="en">Eragon</title>
+		<author>Christopher Paolini</author>
+		<year>2008</year>
+		<price>13.99</price>
+	</book>
+</bookstore>

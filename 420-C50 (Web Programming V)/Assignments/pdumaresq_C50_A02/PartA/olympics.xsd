@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://csdev.cegep-heritage.qc.ca/olympics" 
+	targetNamespace="http://csdev.cegep-heritage.qc.ca/olympics"
+	elementFormDefault="qualified">	
+	
+	<xs:simpleType name="sportsType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Alpine skiing"/>
+			<xs:enumeration value="Biathlon"/>
+			<xs:enumeration value="Bobsleigh"/>
+			<xs:enumeration value="Cross-country skiing"/>
+			<xs:enumeration value="Curling"/>
+			<xs:enumeration value="Figure skating"/>
+			<xs:enumeration value="Freestyle skiing"/>
+			<xs:enumeration value="Ice hockey"/>
+			<xs:enumeration value="Luge"/>
+			<xs:enumeration value="Nordic combined"/>
+			<xs:enumeration value="Short track speed skating"/>
+			<xs:enumeration value="Skeleton"/>
+			<xs:enumeration value="Ski jumping"/>
+			<xs:enumeration value="Snowboarding"/>
+			<xs:enumeration value="Speed skating"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="name" type="xs:string" />
+	<xs:element name="athletes" type="xs:integer" />
+	<xs:element name="medals">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gold" type="xs:integer" minOccurs="0" />
+				<xs:element name="silver" type="xs:integer" minOccurs="0" />
+				<xs:element name="bronze" type="xs:integer" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="flagBearer">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="firstName" type="xs:string" />
+				<xs:element name="lastName" type="xs:string" />
+			</xs:sequence>
+			<xs:attribute name="sport" type="sportsType" />
+		</xs:complexType>
+	</xs:element>	
+	
+	<xs:element name="country">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="athletes" />
+				<xs:element ref="medals" />
+				<xs:element ref="flagBearer" />
+			</xs:sequence>
+			<xs:attribute name="year" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="countries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="country" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

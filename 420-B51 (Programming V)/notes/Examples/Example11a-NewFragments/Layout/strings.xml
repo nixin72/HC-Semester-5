@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Example11a-NewFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strSelected">You have selected\u0020</string>
+    <string name="selectPrompt">Please Select a Colour</string>
+</resources>

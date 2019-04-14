@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a1523066.pdumaresq_b51_a03.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".66"
+        android:paddingTop="@dimen/main_padding_top"
+        android:textSize="@dimen/main_title_size"
+        android:textAlignment="center"
+        android:textColor="@color/main_title"
+        android:text="@string/about_title"/>
+
+    <Button
+        android:id="@+id/btnPlayGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/main_font_size"
+        android:layout_marginStart="@dimen/main_margin_start"
+        android:layout_marginEnd="@dimen/main_margin_end"
+        android:text="@string/main_play" />
+
+    <Button
+        android:id="@+id/btnOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/main_font_size"
+        android:layout_marginStart="@dimen/main_margin_start"
+        android:layout_marginEnd="@dimen/main_margin_end"
+        android:text="@string/main_options" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_margin_start"
+        android:layout_marginEnd="@dimen/main_margin_end"
+        android:layout_marginBottom="@dimen/main_margin_bottom"
+        android:layout_weight="1"
+        android:textSize="@dimen/main_font_size"
+        android:text="@string/main_about" />
+</LinearLayout>

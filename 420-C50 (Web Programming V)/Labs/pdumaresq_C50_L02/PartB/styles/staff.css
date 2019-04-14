@@ -1,0 +1,64 @@
+/* CSS Document */
+/*
+Style from CSS-Tricks at url: http://css-tricks.com/snippets/css/tucked-corners/ (with modifications)
+*/
+body {
+    background: #e6e6e6;
+	text-align:center;
+}
+h1 {
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+.corners { 
+    background: #f6f6f6;
+    min-height: 200px;
+	padding-bottom:10px;
+    margin: 50px auto;
+    max-width: 600px;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+}
+/* Corner Effect */
+.corners:after,
+.corners:before {
+    background: #e6e6e6;
+    content: '';
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    box-shadow: 0 5px 10px -7px hsla(0,0%,0%,.5);
+}
+.corners:after {
+    left: -50px;
+    transform: rotate(-45deg);
+}
+.corners:before {
+    right: -50px;
+    transform: rotate(45deg);
+}
+.name {
+	font-size:2em;
+	line-height:2em;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#staffdisplay { 
+	display: flex; 
+	padding: 5% 0 0 5%;
+}
+
+#staffdisplay div {
+	display: flex;
+	width: 100%;
+}
+#staffdisplay div span {
+	margin-left: 50%;
+}
+#staffdisplay div:first-child {
+	text-align: right;
+}
+#staffdisplay div:last-child {
+	text-align: left;
+}

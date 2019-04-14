@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.qc.cegep_heritage.pdumaresq.pdumaresq_b51_l09.UseInformation"
+    tools:showIn="@layout/activity_use_information"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:id="@+id/lblFirstName"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="First Name: "/>
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="175dp"
+                android:inputType="textPersonName"
+                android:layout_height="match_parent" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/lblLastName"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Last Name: "/>
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="175dp"
+                android:inputType="textPersonName"
+                android:layout_height="match_parent" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/lblEmailAddress"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email Address: "/>
+            <EditText
+                android:id="@+id/edtEmailAddress"
+                android:layout_width="175dp"
+                android:inputType="textEmailAddress"
+                android:layout_height="match_parent" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/lblPhoneExt"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="phone"
+                android:text="Phone Number: "/>
+            <EditText
+                android:id="@+id/edtPhoneExt"
+                android:layout_width="175dp"
+                android:layout_height="match_parent" />
+        </TableRow>
+        <TableLayout>
+            <Button
+                android:id="@+id/btnSubmit"
+                android:text="Save" />
+            <Button
+                android:id="@+id/btnDelete"
+                android:text="Delete" />
+        </TableLayout>
+    </TableLayout>
+</LinearLayout>

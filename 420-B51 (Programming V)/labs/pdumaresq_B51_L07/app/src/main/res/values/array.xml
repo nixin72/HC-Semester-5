@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>Get Information</item>
+        <item>Show Information</item>
+        <item>About</item>
+    </string-array>
+</resources>

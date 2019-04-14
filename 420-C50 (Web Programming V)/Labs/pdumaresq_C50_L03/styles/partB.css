@@ -1,0 +1,12 @@
+button {
+	width: 100px;
+	margin: 1%;
+}
+
+main {
+	border: thin solid black;
+	margin: 0 1%;
+	padding: 1%;
+}	
+
+main div { padding-left: 3%;}

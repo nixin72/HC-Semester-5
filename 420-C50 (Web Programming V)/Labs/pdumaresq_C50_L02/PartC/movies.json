@@ -1,0 +1,931 @@
+{
+	"movies": {
+		"movie": [
+			{
+				"title": "Straight Talk",
+				"genre": "Comedy",
+				"year": 1985,
+				"director": [
+					"Hilliary Matyja",
+					"Erina Whitmell",
+					"Jerri Streat"
+				],
+				"country": "Madagascar"
+			},
+			{
+				"title": "Before the Devil Knows You're Dead",
+				"genre": "Crime|Drama|Thriller",
+				"year": 2006,
+				"director": [
+					"Mischa Hinnerk",
+					"Batsheva Hamerton"
+				],
+				"country": "Venezuela"
+			},
+			{
+				"title": "Taira Clan Saga, The (Shin heike monogatari)",
+				"genre": "Drama",
+				"year": 2010,
+				"director": "Sig Cottill",
+				"country": "Kenya"
+			},
+			{
+				"title": "Desperado",
+				"genre": "Action|Romance|Western",
+				"year": 1994,
+				"director": [
+					"Jakob Kewish",
+					"Sherwynd Bradbury"
+				],
+				"country": "Nigeria"
+			},
+			{
+				"title": "Rush: Beyond the Lighted Stage",
+				"genre": "Documentary|Musical",
+				"year": 2006,
+				"director": "Cloris Vondrys",
+				"country": "Indonesia"
+			},
+			{
+				"title": "Lights Out",
+				"genre": "Drama|Mystery|Thriller",
+				"year": 2006,
+				"director": [
+					"Consuela Fookes",
+					"Abrahan MacIver"
+				],
+				"country": "France"
+			},
+			{
+				"title": "Black Sabbath (Tre volti della paura, I)",
+				"genre": "Horror",
+				"year": 1999,
+				"director": [
+					"Kerrin Baldock",
+					"Kelli Wisniowski",
+					"Manfred Edmund"
+				],
+				"country": "Central African Republic"
+			},
+			{
+				"title": "Big Red One, The",
+				"genre": "Action|Adventure|Drama|War",
+				"year": 2012,
+				"director": [
+					"Jacky O'Lochan",
+					"Pansy Bortolini",
+					"Claudie Iacovazzi"
+				],
+				"country": "Dominican Republic"
+			},
+			{
+				"title": "Home and the World, The (Ghare-Baire)",
+				"genre": "Drama",
+				"year": 2003,
+				"director": "Klement Ledward",
+				"country": "Russia"
+			},
+			{
+				"title": "By the Sea",
+				"genre": "Comedy",
+				"year": 1989,
+				"director": "Netta Goodbanne",
+				"country": "Malaysia"
+			},
+			{
+				"title": "Atlantic City",
+				"genre": "Crime|Drama|Romance",
+				"year": 1990,
+				"director": [
+					"Stan Iston",
+					"Kris Gallico",
+					"Jdavie Nutman"
+				],
+				"country": "Indonesia"
+			},
+			{
+				"title": "Crime of Passion",
+				"genre": "Crime|Drama|Film-Noir",
+				"year": 1997,
+				"director": "Berti Medlicott",
+				"country": "Japan"
+			},
+			{
+				"title": "Fear No Evil",
+				"genre": "Horror",
+				"year": 1992,
+				"director": [
+					"Bernadine Domican",
+					"Christie Mcall"
+				],
+				"country": "France"
+			},
+			{
+				"title": "Conan the Barbarian",
+				"genre": "Action|Adventure|Fantasy",
+				"year": 2003,
+				"director": "Hazlett Dungate",
+				"country": "Japan"
+			},
+			{
+				"title": "I'm Reed Fish",
+				"genre": "Comedy|Drama|Romance",
+				"year": 2010,
+				"director": "Thain Etienne",
+				"country": "Honduras"
+			},
+			{
+				"title": "It's My Mother's Birthday Today",
+				"genre": "(no genres listed)",
+				"year": 2006,
+				"director": [
+					"Lissa Backshell",
+					"Jamie Dundredge",
+					"Ferrell Allbut"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Twelve Monkeys (a.k.a. 12 Monkeys)",
+				"genre": "Mystery|Sci-Fi|Thriller",
+				"year": 2010,
+				"director": [
+					"Gaelan Anney",
+					"Osgood Butler-Bowdon",
+					"Andreana Fearnyhough"
+				],
+				"country": "Cameroon"
+			},
+			{
+				"title": "Tooth & Nail",
+				"genre": "Drama|Horror|Sci-Fi",
+				"year": 2004,
+				"director": "Myrta Scroggs",
+				"country": "Portugal"
+			},
+			{
+				"title": "Man of Straw (Untertan, Der)",
+				"genre": "Comedy|Drama",
+				"year": 2003,
+				"director": [
+					"Gavin Lorand",
+					"Xylia Kegan",
+					"Dareen Leger"
+				],
+				"country": "Czech Republic"
+			},
+			{
+				"title": "Leaves of Grass",
+				"genre": "Comedy|Crime|Drama|Thriller",
+				"year": 2008,
+				"director": "Guillemette Shaw",
+				"country": "France"
+			},
+			{
+				"title": "I Hate Christian Laettner",
+				"genre": "Documentary",
+				"year": 2011,
+				"director": "Ina Filoniere",
+				"country": "Indonesia"
+			},
+			{
+				"title": "Holiday Inn",
+				"genre": "Comedy|Musical",
+				"year": 2009,
+				"director": "Gonzales Cleverley",
+				"country": "Austria"
+			},
+			{
+				"title": "Fighter, The",
+				"genre": "Drama",
+				"year": 2003,
+				"director": "Sabra Fahy",
+				"country": "Indonesia"
+			},
+			{
+				"title": "My Favorite Wife",
+				"genre": "Comedy|Romance",
+				"year": 2007,
+				"director": "Arnoldo Skivington",
+				"country": "China"
+			},
+			{
+				"title": "Creature from Black Lake ",
+				"genre": "Drama|Horror|Mystery",
+				"year": 2001,
+				"director": [
+					"Novelia Saddington",
+					"Raquela Wornum"
+				],
+				"country": "China"
+			},
+			{
+				"title": "If I Want to Whistle, I Whistle (Eu cand vreau sa fluier, fluier)",
+				"genre": "Drama",
+				"year": 2006,
+				"director": [
+					"Augustus Grishaev",
+					"Tracy Matthessen"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Man Who Laughs, The",
+				"genre": "Drama|Romance",
+				"year": 2010,
+				"director": [
+					"Almire Elflain",
+					"Anastasie Shields",
+					"Helen-elizabeth Tyrone"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Odessa File, The",
+				"genre": "Thriller",
+				"year": 2004,
+				"director": [
+					"Benson Bart",
+					"Maggy Isaksen"
+				],
+				"country": "Tajikistan"
+			},
+			{
+				"title": "Ursul",
+				"genre": "Comedy|Drama",
+				"year": 1990,
+				"director": [
+					"Carmina Plews",
+					"Bathsheba Andresser",
+					"Sheffy Tolworthie"
+				],
+				"country": "Poland"
+			},
+			{
+				"title": "Dressed to Kill",
+				"genre": "Mystery|Thriller",
+				"year": 2001,
+				"director": [
+					"Ingar Million",
+					"Alissa O'Breen",
+					"Keefe Grinnov"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Porco Rosso (Crimson Pig) (Kurenai no buta)",
+				"genre": "Adventure|Animation|Comedy|Fantasy|Romance",
+				"year": 1999,
+				"director": "Joellyn Zuppa",
+				"country": "Brazil"
+			},
+			{
+				"title": "Mr. Moto in Danger Island",
+				"genre": "Crime|Drama|Mystery|Thriller",
+				"year": 1984,
+				"director": [
+					"Vannie Sabberton",
+					"Gabrielle Szach"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Fiddle-de-dee",
+				"genre": "Animation|Musical",
+				"year": 1995,
+				"director": [
+					"Jud Bunclark",
+					"Blinnie Roskelly"
+				],
+				"country": "Paraguay"
+			},
+			{
+				"title": "Cutthroat Island",
+				"genre": "Action|Adventure|Romance",
+				"year": 1973,
+				"director": "Priscella Boundley",
+				"country": "Brazil"
+			},
+			{
+				"title": "I Am Maria (Jag är Maria)",
+				"genre": "Drama",
+				"year": 2000,
+				"director": [
+					"Timmie Zelland",
+					"Aldon Bodega"
+				],
+				"country": "Nigeria"
+			},
+			{
+				"title": "When the Levees Broke: A Requiem in Four Acts",
+				"genre": "Documentary",
+				"year": 1983,
+				"director": [
+					"Bab Cocksedge",
+					"Nariko Anglin"
+				],
+				"country": "Russia"
+			},
+			{
+				"title": "Summer Magic",
+				"genre": "Children|Comedy|Musical",
+				"year": 2007,
+				"director": [
+					"Chelsie Babbe",
+					"Aubrie Dagleas",
+					"Skyler Dredge"
+				],
+				"country": "Sweden"
+			},
+			{
+				"title": "The Questor Tapes",
+				"genre": "Sci-Fi",
+				"year": 2000,
+				"director": "Creigh Jerche",
+				"country": "Russia"
+			},
+			{
+				"title": "Mad Money",
+				"genre": "Comedy|Crime|Thriller",
+				"year": 2012,
+				"director": [
+					"Barth Kelberer",
+					"Manolo Rotchell",
+					"Lane MacGinlay"
+				],
+				"country": "Sweden"
+			},
+			{
+				"title": "Tales of Terror (Kaidan Shin Mimibukuro)",
+				"genre": "Horror",
+				"year": 1990,
+				"director": [
+					"Lavinia Gillfillan",
+					"Manon Scola",
+					"Cornie Rollins"
+				],
+				"country": "Japan"
+			},
+			{
+				"title": "Soul Assassin",
+				"genre": "Action|Crime|Thriller",
+				"year": 2004,
+				"director": "Estell MacKomb",
+				"country": "Indonesia"
+			},
+			{
+				"title": "Pulse (Kairo)",
+				"genre": "Horror|Mystery|Thriller",
+				"year": 2004,
+				"director": "Natale McKune",
+				"country": "Philippines"
+			},
+			{
+				"title": "Confessions of a Nazi Spy",
+				"genre": "Drama",
+				"year": 1990,
+				"director": "Elsie Chatteris",
+				"country": "China"
+			},
+			{
+				"title": "Bionicle 3: Web of Shadows",
+				"genre": "Action|Adventure|Animation|Children",
+				"year": 2009,
+				"director": [
+					"Gwenni Liggens",
+					"Lenora Seiler",
+					"Ealasaid Farfalameev"
+				],
+				"country": "Ireland"
+			},
+			{
+				"title": "Falling in Love Again",
+				"genre": "Comedy",
+				"year": 2002,
+				"director": [
+					"Emera Wakeling",
+					"Michele Bollam",
+					"Collette Bolt"
+				],
+				"country": "Czech Republic"
+			},
+			{
+				"title": "'Hellboy': The Seeds of Creation",
+				"genre": "Action|Adventure|Comedy|Documentary|Fantasy",
+				"year": 2005,
+				"director": "Nicholas Adamik",
+				"country": "Argentina"
+			},
+			{
+				"title": "Belarmino",
+				"genre": "Documentary|Drama",
+				"year": 2012,
+				"director": [
+					"Meris Stiggers",
+					"Elvis Heppenspall"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Getaway, The",
+				"genre": "Action|Crime|Drama|Thriller",
+				"year": 1993,
+				"director": [
+					"Dick Dahlen",
+					"Ricki Connachan"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Big Game",
+				"genre": "Action|Drama|Thriller",
+				"year": 1996,
+				"director": [
+					"Anne Scarsbrooke",
+					"Roslyn Wilcott",
+					"Loydie Thunder"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Catch That Kid",
+				"genre": "Action|Adventure|Children|Comedy|Crime",
+				"year": 1992,
+				"director": [
+					"Tiebold Annell",
+					"Agneta Beavington",
+					"Emlyn Hillum"
+				],
+				"country": "Equatorial Guinea"
+			},
+			{
+				"title": "Tyler Perry's Why Did I Get Married Too?",
+				"genre": "Comedy",
+				"year": 2002,
+				"director": [
+					"Wyndham Roseveare",
+					"Donny Butlin"
+				],
+				"country": "Guatemala"
+			},
+			{
+				"title": "End of the Game (Der Richter und sein Henker)",
+				"genre": "Crime|Drama|Mystery|Thriller",
+				"year": 2006,
+				"director": [
+					"Cully Shavel",
+					"Tallie Shrigley"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Salmon Fishing in the Yemen",
+				"genre": "Comedy|Drama|Romance",
+				"year": 1986,
+				"director": [
+					"Allegra Bolwell",
+					"Gerick Negri",
+					"Terrance Inkles"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Death Kiss, The",
+				"genre": "Comedy|Mystery",
+				"year": 1986,
+				"director": [
+					"Evyn Cheverton",
+					"Hadrian Smallpeace"
+				],
+				"country": "Macedonia"
+			},
+			{
+				"title": "Terry Pratchett: Choosing to Die",
+				"genre": "Documentary",
+				"year": 2008,
+				"director": [
+					"Karole Paff",
+					"Mikol Sever",
+					"Rachelle Affron"
+				],
+				"country": "Afghanistan"
+			},
+			{
+				"title": "Phish: Bittersweet Motel",
+				"genre": "Documentary",
+				"year": 2002,
+				"director": [
+					"Eyde Gelland",
+					"Xavier Backman"
+				],
+				"country": "Slovenia"
+			},
+			{
+				"title": "Songs My Brothers Taught Me",
+				"genre": "Drama",
+				"year": 1992,
+				"director": [
+					"Karisa Bravey",
+					"Carley Learmount",
+					"Ibbie Matschuk"
+				],
+				"country": "Indonesia"
+			},
+			{
+				"title": "Flodder in Amerika!",
+				"genre": "Comedy",
+				"year": 2011,
+				"director": "Ruddy Hallen",
+				"country": "Colombia"
+			},
+			{
+				"title": "Chump at Oxford, A",
+				"genre": "Comedy",
+				"year": 2010,
+				"director": "Nelle Marcu",
+				"country": "China"
+			},
+			{
+				"title": "Ice Age 2: The Meltdown",
+				"genre": "Adventure|Animation|Children|Comedy",
+				"year": 1999,
+				"director": "Tremayne Albrighton",
+				"country": "Bosnia and Herzegovina"
+			},
+			{
+				"title": "Art of the Steal, The",
+				"genre": "Documentary",
+				"year": 1996,
+				"director": [
+					"Joanne Hovard",
+					"Antonia Pocknoll"
+				],
+				"country": "Ukraine"
+			},
+			{
+				"title": "Fantastic Planet, The (Planète sauvage, La)",
+				"genre": "Animation|Sci-Fi",
+				"year": 1993,
+				"director": [
+					"Karlan Pringour",
+					"Farr Duran"
+				],
+				"country": "Czech Republic"
+			},
+			{
+				"title": "Trucker",
+				"genre": "Drama",
+				"year": 2010,
+				"director": [
+					"Thorvald Bonwick",
+					"Margie Thomasset"
+				],
+				"country": "Morocco"
+			},
+			{
+				"title": "Taxing Woman, A (Marusa no onna)",
+				"genre": "Comedy",
+				"year": 1996,
+				"director": [
+					"Donny Smitham",
+					"Ikey Simonou",
+					"Karalee Bendelow"
+				],
+				"country": "Belarus"
+			},
+			{
+				"title": "Lawn Dogs",
+				"genre": "Drama",
+				"year": 2006,
+				"director": "Teodoro Raddin",
+				"country": "Comoros"
+			},
+			{
+				"title": "Two Weeks in September",
+				"genre": "Drama|Romance",
+				"year": 2008,
+				"director": [
+					"Gregoire Boyack",
+					"Florri Bettaney"
+				],
+				"country": "Mexico"
+			},
+			{
+				"title": "Sleepover",
+				"genre": "Comedy",
+				"year": 2007,
+				"director": [
+					"Aron Hellings",
+					"Halsy Dinis",
+					"Rosamund Avarne"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Time Without Pity",
+				"genre": "Crime|Drama|Mystery",
+				"year": 1987,
+				"director": [
+					"Deeanne Khadir",
+					"Alick Brende"
+				],
+				"country": "Indonesia"
+			},
+			{
+				"title": "Happy Go Lovely",
+				"genre": "Musical",
+				"year": 2007,
+				"director": [
+					"Colette Naptine",
+					"Ly Walduck",
+					"Cash Linstead"
+				],
+				"country": "France"
+			},
+			{
+				"title": "Crawlspace",
+				"genre": "Horror",
+				"year": 2011,
+				"director": [
+					"Hebert Browning",
+					"Conney Ogbourne",
+					"Rhianna Wilding"
+				],
+				"country": "United States"
+			},
+			{
+				"title": "Save Me",
+				"genre": "Drama",
+				"year": 1996,
+				"director": "Pavia Eden",
+				"country": "China"
+			},
+			{
+				"title": "Road Hard",
+				"genre": "Comedy",
+				"year": 2002,
+				"director": [
+					"Maureene McQuade",
+					"Kass Orpen"
+				],
+				"country": "Nigeria"
+			},
+			{
+				"title": "Exercice de l'État, L'",
+				"genre": "Drama",
+				"year": 1997,
+				"director": [
+					"Zitella Lamperd",
+					"Reeta Kharchinski",
+					"Michel Scutter"
+				],
+				"country": "Russia"
+			},
+			{
+				"title": "Mark of the Cop",
+				"genre": "Crime|Drama|Romance",
+				"year": 2001,
+				"director": [
+					"Tandie Tout",
+					"Jordon Stubbin",
+					"Verne Kell"
+				],
+				"country": "Canada"
+			},
+			{
+				"title": "Muppet Musicians of Bremen, The",
+				"genre": "Children|Comedy|Musical",
+				"year": 1995,
+				"director": [
+					"Caryn Teodoro",
+					"Janina Aplin"
+				],
+				"country": "Malawi"
+			},
+			{
+				"title": "Kickin It Old Skool",
+				"genre": "Comedy",
+				"year": 2007,
+				"director": [
+					"Fabe Domerque",
+					"Nevsa Trevains",
+					"Giorgio Guinan"
+				],
+				"country": "Canada"
+			},
+			{
+				"title": "Seraphim Falls",
+				"genre": "Action|Adventure|Drama|War|Western",
+				"year": 2012,
+				"director": "Kiel Drage",
+				"country": "Argentina"
+			},
+			{
+				"title": "Adventures of Prince Achmed, The (Abenteuer des Prinzen Achmed, Die)",
+				"genre": "Adventure|Animation|Fantasy|Romance",
+				"year": 1994,
+				"director": "Richmond Furnival",
+				"country": "Portugal"
+			},
+			{
+				"title": "The Siege of Firebase Gloria",
+				"genre": "Action|Drama|War",
+				"year": 2004,
+				"director": "Bran Dryden",
+				"country": "Peru"
+			},
+			{
+				"title": "Green Slime, The",
+				"genre": "Drama|Horror|Sci-Fi",
+				"year": 1999,
+				"director": [
+					"Jeannine Storres",
+					"Lilly Rookesby",
+					"Veronika Scotchmore"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Schizopolis",
+				"genre": "Comedy",
+				"year": 1992,
+				"director": [
+					"Patricia Walster",
+					"Syman Birkmyre"
+				],
+				"country": "Argentina"
+			},
+			{
+				"title": "With Great Power: The Stan Lee Story",
+				"genre": "Documentary",
+				"year": 1993,
+				"director": "Ernest Sedgeworth",
+				"country": "China"
+			},
+			{
+				"title": "Relative Fear",
+				"genre": "Horror|Thriller",
+				"year": 2007,
+				"director": [
+					"Garreth Bakey",
+					"Estelle Stenyng",
+					"Leandra Erett"
+				],
+				"country": "Uruguay"
+			},
+			{
+				"title": "Désiré",
+				"genre": "(no genres listed)",
+				"year": 1983,
+				"director": [
+					"Prue McVeagh",
+					"Tess Helkin",
+					"Sarene Irwin"
+				],
+				"country": "Portugal"
+			},
+			{
+				"title": "Rusty Knife (Sabita naifu)",
+				"genre": "Action|Crime",
+				"year": 1994,
+				"director": [
+					"Maia Collinson",
+					"Evanne Roderigo"
+				],
+				"country": "Argentina"
+			},
+			{
+				"title": "Won't Back Down",
+				"genre": "Drama",
+				"year": 2001,
+				"director": "Kaila Kardos-Stowe",
+				"country": "Pakistan"
+			},
+			{
+				"title": "Edukators, The (Die Fetten Jahre sind vorbei)",
+				"genre": "Comedy|Crime|Drama|Romance",
+				"year": 2009,
+				"director": [
+					"Ashleigh Romand",
+					"Jehanna Chaundy",
+					"Lacee Glitherow"
+				],
+				"country": "United States"
+			},
+			{
+				"title": "Welcome to Collinwood",
+				"genre": "Comedy|Crime",
+				"year": 1987,
+				"director": "Neilla Swett",
+				"country": "Norway"
+			},
+			{
+				"title": "Restless",
+				"genre": "Drama",
+				"year": 2001,
+				"director": [
+					"Kristin Camies",
+					"Flynn Triplet"
+				],
+				"country": "Italy"
+			},
+			{
+				"title": "Aviator, The",
+				"genre": "Drama",
+				"year": 2007,
+				"director": "Ivett Breston",
+				"country": "France"
+			},
+			{
+				"title": "Trip to Bountiful, The",
+				"genre": "Drama",
+				"year": 2010,
+				"director": "Gordan Demetr",
+				"country": "China"
+			},
+			{
+				"title": "Pain in the Ass, A (L'emmerdeur)",
+				"genre": "Comedy",
+				"year": 2012,
+				"director": [
+					"Vickie Brake",
+					"Adelaide Withrington"
+				],
+				"country": "Pakistan"
+			},
+			{
+				"title": "Futurama: Bender's Game",
+				"genre": "Action|Adventure|Animation|Comedy|Fantasy|Sci-Fi",
+				"year": 2003,
+				"director": [
+					"Dov Espinoza",
+					"Avrom Held"
+				],
+				"country": "Philippines"
+			},
+			{
+				"title": "Diplomatic Immunity (2009– )",
+				"genre": "Comedy",
+				"year": 2010,
+				"director": "Alphonse Flay",
+				"country": "Colombia"
+			},
+			{
+				"title": "Louis C.K.: Live at the Beacon Theater",
+				"genre": "Comedy",
+				"year": 2004,
+				"director": [
+					"Katharina Dronsfield",
+					"Devin Lequeux",
+					"Rivkah Koopman"
+				],
+				"country": "Mexico"
+			},
+			{
+				"title": "The Land Before Time XIII: The Wisdom of Friends",
+				"genre": "Animation|Children",
+				"year": 2004,
+				"director": "Lacey Ambler",
+				"country": "Mauritius"
+			},
+			{
+				"title": "The Tunnel of Love",
+				"genre": "Comedy|Romance",
+				"year": 2008,
+				"director": [
+					"Silvanus Bigglestone",
+					"Tucky Pearch"
+				],
+				"country": "China"
+			},
+			{
+				"title": "Alien Nation: The Enemy Within",
+				"genre": "Sci-Fi",
+				"year": 1995,
+				"director": [
+					"Tressa Antonikov",
+					"Torry Ackred",
+					"Leif Apps"
+				],
+				"country": "Panama"
+			},
+			{
+				"title": "Christmas Vacation (National Lampoon's Christmas Vacation)",
+				"genre": "Comedy",
+				"year": 1992,
+				"director": "Annetta Risebrow",
+				"country": "Philippines"
+			},
+			{
+				"title": "Blackboard Jungle",
+				"genre": "Drama",
+				"year": 1988,
+				"director": [
+					"Sydel Ruselin",
+					"Cazzie Ellen"
+				],
+				"country": "Mexico"
+			}
+		]
+	}
+}

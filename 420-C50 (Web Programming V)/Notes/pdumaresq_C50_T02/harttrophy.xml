@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="harttrophy.xsl"?>
+
+<harttrophy>
+	<winner>
+		<season>1923-24</season>
+		<player>Frank Nighbor</player>
+		<team>Ottawa Senators</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1924-25</season>
+		<player>Billy Burch</player>
+		<team>Hamilton Tigers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1925-26</season>
+		<player>Nels Stewart</player>
+		<team>Montreal Maroons</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1926-27</season>
+		<player>Herb Gardiner</player>
+		<team>Montreal Canadiens</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1927-28</season>
+		<player>Howie Morenz</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1928-29</season>
+		<player>Roy &quot;Shrimp&quot; Worters</player>
+		<team>New York Americans</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1929-30</season>
+		<player>Nels Stewart</player>
+		<team>Montreal Maroons</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1930-31</season>
+		<player>Howie Morenz</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1931-32</season>
+		<player>Howie Morenz</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1932-33</season>
+		<player>Eddie Shore</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1933-34</season>
+		<player>Aurele Joliat</player>
+		<team>Montreal Canadiens</team>
+		<position>LW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1934-35</season>
+		<player>Eddie Shore</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1935-36</season>
+		<player>Eddie Shore</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1936-37</season>
+		<player>Babe Siebert</player>
+		<team>Montreal Canadiens</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1937-38</season>
+		<player>Eddie Shore</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>4</winnum>
+	</winner>
+	<winner>
+		<season>1938-39</season>
+		<player>Toe Blake</player>
+		<team>Montreal Canadiens</team>
+		<position>LW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1939-40</season>
+		<player>Ebbie Goodfellow</player>
+		<team>Detroit Red Wings</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1940-41</season>
+		<player>Bill Cowley</player>
+		<team>Boston Bruins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1941-42</season>
+		<player>Tommy Anderson</player>
+		<team>Brooklyn Americans</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1942-43</season>
+		<player>Bill Cowley</player>
+		<team>Boston Bruins</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1943-44</season>
+		<player>Babe Pratt</player>
+		<team>Toronto Maple Leafs</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1944-45</season>
+		<player>Elmer Lach</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1945-46</season>
+		<player>Max Bentley</player>
+		<team>Chicago Black Hawks</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1946-47</season>
+		<player>Maurice Richard</player>
+		<team>Montreal Canadiens</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1947-48</season>
+		<player>Buddy O&apos;Connor</player>
+		<team>New York Rangers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1948-49</season>
+		<player>Sid Abel</player>
+		<team>Detroit Red Wings</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1949-50</season>
+		<player>Chuck Rayner</player>
+		<team>New York Rangers</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1950-51</season>
+		<player>Milt Schmidt</player>
+		<team>Boston Bruins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1951-52</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1952-53</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1953-54</season>
+		<player>Al Rollins</player>
+		<team>Chicago Black Hawks</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1954-55</season>
+		<player>Ted Kennedy</player>
+		<team>Toronto Maple Leafs</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1955-56</season>
+		<player>Jean Beliveau</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1956-57</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1957-58</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>4</winnum>
+	</winner>
+	<winner>
+		<season>1958-59</season>
+		<player>Andy Bathgate</player>
+		<team>New York Rangers</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1959-60</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>5</winnum>
+	</winner>
+	<winner>
+		<season>1960-61</season>
+		<player>Bernie Geoffrion</player>
+		<team>Montreal Canadiens</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1961-62</season>
+		<player>Jacques Plante</player>
+		<team>Montreal Canadiens</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1962-63</season>
+		<player>Gordie Howe</player>
+		<team>Detroit Red Wings</team>
+		<position>RW</position>
+		<winnum>6</winnum>
+	</winner>
+	<winner>
+		<season>1963-64</season>
+		<player>Jean Beliveau</player>
+		<team>Montreal Canadiens</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1964-65</season>
+		<player>Bobby Hull</player>
+		<team>Chicago Black Hawks</team>
+		<position>LW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1965-66</season>
+		<player>Bobby Hull</player>
+		<team>Chicago Black Hawks</team>
+		<position>LW</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1966-67</season>
+		<player>Stan Mikita</player>
+		<team>Chicago Black Hawks</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1967-68</season>
+		<player>Stan Mikita</player>
+		<team>Chicago Black Hawks</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1968-69</season>
+		<player>Phil Esposito</player>
+		<team>Boston Bruins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1969-70</season>
+		<player>Bobby Orr</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1970-71</season>
+		<player>Bobby Orr</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1971-72</season>
+		<player>Bobby Orr</player>
+		<team>Boston Bruins</team>
+		<position>D</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1972-73</season>
+		<player>Bobby Clarke</player>
+		<team>Philadelphia Flyers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1973-74</season>
+		<player>Phil Esposito</player>
+		<team>Boston Bruins</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1974-75</season>
+		<player>Bobby Clarke</player>
+		<team>Philadelphia Flyers</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1975-76</season>
+		<player>Bobby Clarke</player>
+		<team>Philadelphia Flyers</team>
+		<position>C</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1976-77</season>
+		<player>Guy Lafleur</player>
+		<team>Montreal Canadiens</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1977-78</season>
+		<player>Guy Lafleur</player>
+		<team>Montreal Canadiens</team>
+		<position>RW</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1978-79</season>
+		<player>Bryan Trottier</player>
+		<team>New York Islanders</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1979-80</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1980-81</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1981-82</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1982-83</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>4</winnum>
+	</winner>
+	<winner>
+		<season>1983-84</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>5</winnum>
+	</winner>
+	<winner>
+		<season>1984-85</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>6</winnum>
+	</winner>
+	<winner>
+		<season>1985-86</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>7</winnum>
+	</winner>
+	<winner>
+		<season>1986-87</season>
+		<player>Wayne Gretzky</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>8</winnum>
+	</winner>
+	<winner>
+		<season>1987-88</season>
+		<player>Mario Lemieux</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1988-89</season>
+		<player>Wayne Gretzky</player>
+		<team>Los Angeles Kings</team>
+		<position>C</position>
+		<winnum>9</winnum>
+	</winner>
+	<winner>
+		<season>1989-90</season>
+		<player>Mark Messier</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1990-91</season>
+		<player>Brett Hull</player>
+		<team>St. Louis Blues</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1991-92</season>
+		<player>Mark Messier</player>
+		<team>New York Rangers</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1992-93</season>
+		<player>Mario Lemieux</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1993-94</season>
+		<player>Sergei Fedorov</player>
+		<team>Detroit Red Wings</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1994-95</season>
+		<player>Eric Lindros</player>
+		<team>Philadelphia Flyers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1995-96</season>
+		<player>Mario Lemieux</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>1996-97</season>
+		<player>Dominik Hasek</player>
+		<team>Buffalo Sabres</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1997-98</season>
+		<player>Dominik Hasek</player>
+		<team>Buffalo Sabres</team>
+		<position>G</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>1998-99</season>
+		<player>Jaromir Jagr</player>
+		<team>Pittsburgh Penguins</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>1999-2000</season>
+		<player>Chris Pronger</player>
+		<team>St. Louis Blues</team>
+		<position>D</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2000-01</season>
+		<player>Joe Sakic</player>
+		<team>Colorado Avalanche</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2001-02</season>
+		<player>Jose Theodore</player>
+		<team>Montreal Canadiens</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2002-03</season>
+		<player>Peter Forsberg</player>
+		<team>Colorado Avalanche</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2003-04</season>
+		<player>Martin St. Louis</player>
+		<team>Tampa Bay Lightning</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2005-06</season>
+		<player>Joe Thornton</player>
+		<team>Boston Bruins/San Jose Sharks</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2006-07</season>
+		<player>Sidney Crosby</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2007-08</season>
+		<player>Alexander Ovechkin</player>
+		<team>Washington Capitals</team>
+		<position>LW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2008-09</season>
+		<player>Alexander Ovechkin</player>
+		<team>Washington Capitals</team>
+		<position>LW</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>2009-10</season>
+		<player>Henrik Sedin</player>
+		<team>Vancouver Canucks</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2010-11</season>
+		<player>Corey Perry</player>
+		<team>Anaheim Ducks</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2011-12</season>
+		<player>Evgeni Malkin</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2012-13</season>
+		<player>Alexander Ovechkin</player>
+		<team>Washington Capitals</team>
+		<position>RW</position>
+		<winnum>3</winnum>
+	</winner>
+	<winner>
+		<season>2013-14</season>
+		<player>Sydney Crosby</player>
+		<team>Pittsburgh Penguins</team>
+		<position>C</position>
+		<winnum>2</winnum>
+	</winner>
+	<winner>
+		<season>2014-15</season>
+		<player>Carey Price</player>
+		<team>Montreal Canadiens</team>
+		<position>G</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2015-16</season>
+		<player>Patrick Kane</player>
+		<team>Chicago Blackhawks</team>
+		<position>RW</position>
+		<winnum>1</winnum>
+	</winner>
+	<winner>
+		<season>2016-17</season>
+		<player>Connor McDavid</player>
+		<team>Edmonton Oilers</team>
+		<position>C</position>
+		<winnum>1</winnum>
+	</winner>
+</harttrophy>

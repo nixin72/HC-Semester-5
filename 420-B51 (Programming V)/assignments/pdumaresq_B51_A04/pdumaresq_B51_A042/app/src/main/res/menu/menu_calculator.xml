@@ -1,0 +1,38 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.phdum.pdumaresq_b51_a04.MainActivity">
+    <item
+        android:id="@+id/mitmSaveAs"
+        android:orderInCategory="100"
+        android:title="@string/menu_save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmSave"
+        android:orderInCategory="100"
+        android:title="@string/menu_update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmSelectSize"
+        android:orderInCategory="100"
+        android:title="@string/menu_size"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmStoredEquations"
+        android:orderInCategory="100"
+        android:title="@string/menu_stored"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmOptions"
+        android:orderInCategory="100"
+        android:title="@string/menu_options"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmAbout"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+</menu>
+
+

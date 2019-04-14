@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This is a comment to show how nodes work -->
+<bookstore>
+	<book category="cooking">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="children">
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+	<book category="web">
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<author>Per Bothner</author>
+		<author>Kurt Cagle</author>
+		<author>James Linn</author>
+		<author>Vaidyanathan Nagarajan</author>
+		<year>2003</year>
+		<price>49.99</price>
+	</book>
+	<book category="web" cover="paperback">
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+		<price>39.95</price>
+	</book>
+	<book category="fantasy">
+		<title lang="en">Eragon</title>
+		<author>Christopher Paolini</author>
+		<year>2008</year>
+		<price>13.99</price>
+	</book>
+	<book category="fantasy">
+		<title lang="en">Dune</title>
+		<author>Frank Herbert</author>
+		<year>1965</year>
+		<price>11.99</price>
+	</book> 
+	<book category="web" cover="paperback">
+		<title lang="en">Web Development and Design Foundations</title>
+		<author>Terry Felke-Morris</author>
+		<year>2017</year>
+		<price>194.99</price>
+	</book>
+	<book category="science" cover="web">
+		<title lang="en">The Physics Hypertextbook</title>
+		<author>Glenn Elert</author>
+		<year>2017</year>
+		<price>0.00</price>
+	</book>
+	<book category="database" cover="hardback">
+		<title lang="en">Database Systems: Design, Implementation, and Management</title>
+		<author>Carlos Coronel</author>
+		<author>Steven Morris</author>
+		<year>2016</year>
+		<price>199.95</price>
+	</book>
+</bookstore>

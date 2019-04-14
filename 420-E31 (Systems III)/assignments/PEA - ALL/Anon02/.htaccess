@@ -1,0 +1,15 @@
+# block libraries
+RedirectMatch 404 (/lib/)|(/lib$)
+RedirectMatch 404 (/styles/$)|(/styles$)
+
+# block wip production images
+RedirectMatch 404 (/logo/)|(/logo$)
+
+# block non releavent internet traffic
+RedirectMatch 404 (.less$)
+RedirectMatch 404 (.inc$)
+
+#index redirects
+RedirectMatch "(.*)/index$" "$1/index.php"
+
+Options -Indexes

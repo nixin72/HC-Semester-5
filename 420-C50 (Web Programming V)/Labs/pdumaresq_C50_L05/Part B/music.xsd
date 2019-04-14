@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	Author: 			Philip Dumaresq
+	Filename:      	   	music.xsd
+	Supporting Files: 
+-->
+
+<xs:schema 
+		xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+			
+		<xs:simpleType name="albumIDType" >
+			<xs:restriction base="xs:ID">
+				<xs:pattern value="JW\d{6}" />
+			</xs:restriction>
+		</xs:simpleType>
+		
+		<xs:simpleType name="jazzType" >
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="New Orleans" />
+				<xs:enumeration value="Swing" />
+				<xs:enumeration value="Bebop" />
+				<xs:enumeration value="Modern" />
+			</xs:restriction>
+		</xs:simpleType>
+		
+		<xs:element name="inventory">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="album" minOccurs="1" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="title" type="xs:string"/>
+								<xs:element name="artist" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+								<xs:element name="tracks">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="track" type="xs:string">
+												<xs:complexType>
+													<xs:attribute name="length" minOccurs="0" type="xs:string"/>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+										<xs:attribute name="length" type="xs:string" minOccurs="0"/>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="albumID" type="albumIDType" />
+							<xs:attribute name="category" type="jazzType" />
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+</xs:schema>

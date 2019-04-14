@@ -1,0 +1,196 @@
+body{
+	background-color: #221E1D;
+}
+#imgBrand{
+	height: 100%;
+	width: auto;
+	border-radius: 30px;
+	background-color: #545454;
+}
+.navbar-brand{
+	padding: 5px;
+}
+.navbar{
+	border-radius: 0px;
+}
+.navbar-nav{
+	padding-left: 40px;
+}
+.navbar-nav li:hover{
+	background-color: #545454;
+}
+.navbar.navbar-inverse{
+	font-family: 'Old Standard TT', serif;
+	font-weight: bold;
+	font-size: 14px;
+	border-top: 0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom: 4px solid transparent;
+	padding: 2px;
+	border-image-source: url(../images/diamond.png);
+	border-image-slice:85;
+	border-image-width:15px;
+	border-image-repeat:round;
+	border-image-outset:10px;
+	
+	-o-border-image-source: url(../images/diamond.png);
+	-o-border-image-slice:85;
+	-o-border-image-width:15px;
+	-o-border-image-repeat:round;
+	-o-border-image-outset:10px;
+	
+	-webkit-border-image-source: url(../images/diamond.png);
+	-webkit-border-image-slice:85;
+	-webkit-border-image-width:15px;
+	-webkit-border-image-repeat:round;
+	-webkit-border-image-outset:10px;
+	
+	background-color: #221e1d;
+}
+.collapse{
+}
+.navbar-header{
+	padding-left: 15px;
+}
+#hamburger{
+	border-radius: 60px;
+	height: 46px;
+	padding-top: 4px;
+	width: 46px;
+	float: right;
+}
+#dropNav{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#wrapper{
+	min-height: 800px;
+	background-color: #EEEBE2;
+	padding: 0px;
+}
+
+#selection{
+	width: 100%;
+	margin-top: 28%;
+	z-index: 5;
+	padding: 0px;
+	opacity: 0.97;
+}
+
+.ddl-center{
+	text-align: center;
+}
+#footer{
+	height: 50px;
+	padding: 0px;
+	width: 100%;
+	opacity: 0.97;
+	background-color: #221E1D;
+}
+#footer p{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 0px;
+    font-size: smaller;
+}
+#content{
+	margin: 0 auto;
+    width: 100%;
+	background-color: #F5F5F5;
+	height: auto;
+	padding: 25px;
+	font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+}
+.banner{
+    height: 160px;
+    width: 220px;
+	border: none;
+    margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+    background-color: lightgray;
+    margin-bottom: -50px;
+	font-family: 'Old Standard TT', serif;
+	font-size: 16px;
+	border-bottom: 5px solid transparent;
+	border-image-source: url(../images/diamond2.png);
+	border-image-slice:70;
+	border-image-width:10px;
+	border-image-repeat:stretch;
+	border-image-outset:10px;
+		
+	-o-border-image-source: url(../images/diamond.png);
+	-o-border-image-slice:85;
+	-o-border-image-width:15px;
+	-o-border-image-repeat:round;
+	-o-border-image-outset:10px;
+	
+	-webkit-border-image-source: url(../images/diamond.png);
+	-webkit-border-image-slice:85;
+	-webkit-border-image-width:15px;
+	-webkit-border-image-repeat:round;
+	-webkit-border-image-outset:10px;
+}
+#zag1{
+	display: inline;
+	height: 130px;
+	width: 50px;
+	position: relative;
+	top: -134px;
+	left: -60px;
+}
+#zag2{
+	display: inline;
+	height: 130px;
+	width: 50px;
+	position: relative;
+	top: -134px;
+	left: 58px;
+	-webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.banner h3{
+	padding-top: 22px;
+}
+#message{
+    text-align: Center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: black;
+	font-family: 'Old Standard TT', serif;
+}
+@media (min-width: 768px){
+    #content{
+        width: 85%;
+    }
+
+	#message{
+		font-size: 4em;
+	}
+}
+@media (min-width: 992px){
+    #message{
+        font-size: 4.5em;
+    }
+
+}
+@media (min-width: 1200px){
+    #message{
+        font-size: 5em;
+    }
+    #content{
+        width:70%;
+    }
+}

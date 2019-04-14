@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<books>
+	<book lang="fr">
+		<title>HP</title>
+		<author>JK Rowling</author>
+	</book>
+	<book lang="en">
+		<title>LoTR</title>
+		<author>JRR Tolkien</author>
+	</book>
+	<book lang="en">
+		<title>The Alchemist</title>
+		<author>HP Lovecraft</author>
+	</book>
+</books>

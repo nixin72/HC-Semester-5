@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.qc.cegep_heritage.pdumaresq.pdumaresq_b52_l05.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <LinearLayout>
+                    <Button
+                        android:id="@+id/btn00"
+                        android:layout_width="match_parent"
+                        android:layout_height="132dp"
+                        android:layout_weight="1"
+                        android:textSize="70sp"
+                        android:tag="00"/>
+    
+                    <Button
+                        android:id="@+id/btn01"
+                        android:layout_width="match_parent"
+                        android:layout_height="132dp"
+                        android:layout_weight="1"
+                        android:textSize="70sp"
+                        android:tag="01"/>
+    
+                    <Button
+                        android:id="@+id/btn02"
+                        android:layout_width="match_parent"
+                        android:layout_height="132dp"
+                        android:layout_weight="1"
+                        android:textSize="70sp"
+                        android:tag="02"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="10"/>
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="11"/>
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="12"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+                <Button
+                    android:id="@+id/btn20"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="20" />
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="21"/>
+
+                <Button
+                    android:id="@+id/btn22"
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"
+                    android:tag="22"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/btnWinner"
+                android:layout_width="0dp"
+                android:layout_height="132dp"
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

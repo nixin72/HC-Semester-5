@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>jQuery load command</title>
+		<link href="styles/partA.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="header">
+			<header>
+				<div>
+					<h2>Philip Dumaresq - <br class="break" />C50 Assignment 01</h2> 
+				</div>
+				<ul>
+					<li><a href="../PartA/partA.html">Part A</a></li>
+					<li><a href="../PartB/partB.html">Part B</a></li>
+				</ul>
+			</header>
+		</div>		
+		<content>
+			<div>
+				<select id="ddlClients" ></select>
+			</div>	
+			<div>
+				<div id="invoiceAll">
+					<div id="invoiceLabels">
+						<strong>Contact: </strong><br />
+						<strong>Address: </strong><br /><br /><br />
+						<strong>Discount: </strong><br />
+						<strong>Invoice: </strong><br />
+						<strong>Date: </strong><br />
+						<strong>Bill Rate: </strong><br />
+					</div>
+					<div id="invoiceInfo"></div>
+				</div>
+				<div id="workOrderAll">
+					<div id="workOrderLabels">
+						<strong>Work number: </strong><br />
+						<strong>Description: </strong><br />
+						<strong>Date: </strong><br />
+						<strong>Work Type: </strong><br />
+						<strong>Hours: </strong><br />
+					</div>
+					<div id="workOrderInfo"></div>
+				</div>
+			</div>
+			
+			<div>
+				<button id="btnPrev" class="iter">Previous</button>
+				<button id="btnNext" class="iter">Next</button>
+				<br />
+				<br />
+				<span id="validate"></span>
+				<br />				
+				<br />				
+				<input type="number" id="txtSearch" placeholder="Work Number" min="1" max="100"/>
+				<button id="btnSearch">Search</button>
+			</div>
+			
+			<main style="display:none;"></main>
+		</content>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous">
+		</script>
+		<script src="js/partA.js"></script>
+	</body>
+</html>

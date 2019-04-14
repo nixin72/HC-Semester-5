@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dim_fontSize">20sp</dimen>
+    <dimen name="dim_rightMargin">8dp</dimen>
+    <dimen name="dim_leftMargin">16dp</dimen>
+    <dimen name="future_margin">10dp</dimen>
+    <dimen name="future_paddingSide">35dp</dimen>
+    <dimen name="future_paddingTop">10dp</dimen>
+    <dimen name="future_titleFont">40sp</dimen>
+    <dimen name="main_height">48dp</dimen>
+    <dimen name="main_width">150dp</dimen>
+</resources>

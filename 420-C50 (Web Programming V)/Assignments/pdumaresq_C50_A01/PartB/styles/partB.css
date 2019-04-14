@@ -1,0 +1,137 @@
+body, html {
+	margin: 0;
+	background-color: #f8f8f8;
+}
+
+header {
+	width: 100%;
+	margin: 0 0 15px 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #008598;
+	box-shadow: 0 10px 10px #aaa;
+	color: white;
+	font-family: Helvetica,Arial,sans-serif;
+	position: fixed;
+	top: 0;
+}	
+
+header ul { margin-top: 20px; }
+header ul li { display: inline; }	
+header a { color: white; text-decoration: none; }
+header a:hover { color: white; text-decoration: underline; }
+
+#ds1, #ds2 {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#ds1 div, #ds2 div {
+	margin-top: 8%;
+	width: 33%;
+}
+
+content div {	
+	padding: 7px 0;
+	width: 100%;
+	text-align: center;
+	background-color: #f8f8f8;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.h {
+	text-decoration: underline; 
+	margin: 0;
+}
+
+#ds1 * .info, #ds2 * .info {
+	display: flex; 
+	margin-top: 0; 
+	padding-top: 0; 
+	width: 100%;
+}
+
+#ds1 * .lbls, #ds2 * .lbls {
+	text-align: right; 
+	width: 30%; 
+	margin: 0 2%; 
+	font-weight: bold;
+}
+
+#ds1 * .data, #ds2 * .data {
+	text-align: left; 
+	margin: 0 2%; 
+	width: 70%;
+}
+ 
+#workOrderAll, #invoiceAll { display: flex; }			
+#workOrderLabels, #invoiceLabels {text-align: right;}
+#workOrderInfo, #invoiceInfo {text-align: left;}
+
+#ddlClients {
+	padding: 1%;
+	border-radius: 5px;
+}
+
+input, button {
+	width: 100px;
+	padding: 1%;
+	border-radius: 5px;
+	border: thin solid grey;
+}
+
+.break {
+	display: none;
+}
+
+@media screen and (min-width:1200px) {
+	#ds1 div, #ds2 div {
+		width: 24%;
+	}
+}
+
+@media screen and (max-width:992px) {
+	#ds1 div, #ds2 div {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#ds1 div, #ds2 div {
+		width: 100%;
+	}
+	content #ds1 { margin-top: 100px; }	
+	.user { margin-top: 0!important; }	
+	.break { display: block; }
+	
+	#ds1 * .info, #ds2 * .info {
+		display: flex; 
+		margin-top: 0; 
+		padding-top: 0; 
+		width: 100%;
+	}
+
+	#ds1 * .lbls, #ds2 * .lbls {
+		text-align: right; 
+		width: 38%; 
+		margin: 0 2%; 
+		font-weight: bold;
+	}
+
+	#ds1 * .data, #ds2 * .data {
+		text-align: left; 
+		margin: 0 2%; 
+		width: 55%;
+	}
+}
+
+@media screen and (max-width:436px) {
+	header div { display: none; }
+	header:before { content: "PD 420-C50 A01"; }
+	header { padding-top: 5%; }	
+	header ul { margin-top: 0; }
+}

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="countries.css" ?>
+<!--
+	Author Name: 	Philip Dumaresq
+	Date: 			10/10/2017
+	Description: 	
+		Contains information about 11 countries that 
+		participated in the 2010 Winter Olympics in Vancouver
+-->
+<countries
+	xmlns="http://csdev.cegep-heritage.qc.ca/olympics"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	
+	xsi:schemaLocation="http://csdev.cegep-heritage.qc.ca/olympics olympics.xsd" >
+	
+	<country year="1924">
+		<name>Canada</name>
+		<athletes>206</athletes>
+		<medals>
+			<gold>14</gold>
+			<silver>7</silver>
+			<bronze>5</bronze>
+		</medals>
+		<flagBearer sport="Speed skating">
+			<firstName>Clara</firstName>
+			<lastName>Hughes</lastName>
+		</flagBearer>
+	</country>
+	<country year="1928">
+		<name>Estonia</name>
+		<athletes>30</athletes>
+		<medals>
+			<silver>1</silver>
+		</medals>
+		<flagBearer sport="Biathlon">
+			<firstName>Roland</firstName>
+			<lastName>Lessing</lastName>
+		</flagBearer>
+	</country>
+	<country year="1984">
+		<name>Senegal</name>
+		<athletes>1</athletes>
+		<medals></medals>
+		<flagBearer sport="Alpine skiing">
+			<firstName>Leyti</firstName>
+			<lastName>Seck</lastName>
+		</flagBearer>
+	</country>
+	<country year="1924">
+		<name>Great Britain</name>
+		<athletes>52</athletes>
+		<medals>
+			<gold>1</gold>
+		</medals>
+		<flagBearer sport="Skeleton">
+			<firstName>Shelley</firstName>
+			<lastName>Rudman</lastName>
+		</flagBearer>
+	</country>
+	<country year="1896">
+		<name>Greece</name>
+		<athletes>7</athletes>
+		<medals></medals>
+		<flagBearer sport="Biathlon">
+			<firstName>Athanassios</firstName>
+			<lastName>Tsakiris</lastName>
+		</flagBearer>
+	</country>
+	<country year="1936">
+		<name>Australia</name>
+		<athletes>40</athletes>
+		<medals>
+			<gold>2</gold>
+			<silver>1</silver>
+		</medals>
+		<flagBearer sport="Snowboarding">
+			<firstName>Torah</firstName>
+			<lastName>Bright</lastName>
+		</flagBearer>
+	</country>
+	<country year="1928">
+		<name>Germany</name>
+		<athletes>153</athletes>
+		<medals>
+			<gold>10</gold>
+			<silver>13</silver>
+			<bronze>7</bronze>
+		</medals>
+		<flagBearer sport="Bobsleigh">
+			<firstName>Andr&#233;</firstName>
+			<lastName>Lange</lastName>
+		</flagBearer>
+	</country>
+	<country year="1924">
+		<name>France</name>
+		<athletes>108</athletes>
+		<medals>
+			<gold>2</gold>
+			<silver>3</silver>
+			<bronze>6</bronze>
+		</medals>
+		<flagBearer sport="Biathlon">
+			<firstName>Vincent</firstName>
+			<lastName>Defrasne</lastName>
+		</flagBearer>
+	</country>
+	<country year="2010">
+		<name>Cayman Islands</name>
+		<athletes>1</athletes>
+		<medals>
+			<gold>14</gold>
+			<silver>7</silver>
+			<bronze>5</bronze>
+		</medals>
+		<flagBearer sport="Alpine skiing">
+			<firstName>Dow</firstName>
+			<lastName>Travers</lastName>
+		</flagBearer>
+	</country>
+	<country year="1956">
+		<name>Russia</name>
+		<athletes>177</athletes>
+		<medals>
+			<gold>3</gold>
+			<silver>5</silver>
+			<bronze>7</bronze>
+		</medals>
+		<flagBearer sport="Ice hockey">
+			<firstName>Aleksey</firstName>
+			<lastName>Morozov</lastName>
+		</flagBearer>
+	</country>
+	<country year="1924">
+		<name>Sweden</name>
+		<athletes>106</athletes>
+		<medals>
+			<gold>5</gold>
+			<silver>2</silver>
+			<bronze>4</bronze>
+		</medals>
+		<flagBearer sport="Ice hockey">
+			<firstName>Peter</firstName>
+			<lastName>Forsberg</lastName>
+		</flagBearer>
+	</country>
+</countries>

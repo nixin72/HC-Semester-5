@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.phdum.pdumaresq_b52_a01.CalculatePresent"
+    tools:showIn="@layout/activity_calculate_present">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/future_paddingTop"
+        android:paddingStart="@dimen/future_paddingSide"
+        android:paddingEnd="@dimen/future_paddingSide" >
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:textSize="@dimen/future_titleFont"
+            android:text="@string/present_title" />
+
+        <TextView
+            android:id="@+id/txtValues"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/dim_fontSize"
+            android:layout_margin="@dimen/future_margin" />
+
+        <TableLayout
+            android:id="@+id/tblResults"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/future_margin">
+            <TableRow>
+                <TextView
+                    android:id="@+id/lblPresentYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginTop="@dimen/future_margin"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:text="@string/future_year"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/lblPresentGathered"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginTop="@dimen/future_margin"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:text="@string/future_interest"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/lblPresentTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginTop="@dimen/future_margin"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:text="@string/future_total"
+                    android:layout_weight="1"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtPresentYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txtPresentGathered"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txtPresentTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/dim_fontSize"
+                    android:layout_marginStart="@dimen/future_margin"
+                    android:layout_marginEnd="@dimen/future_margin"
+                    android:layout_weight="1"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

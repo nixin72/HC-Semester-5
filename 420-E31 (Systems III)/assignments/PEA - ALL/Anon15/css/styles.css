@@ -1,0 +1,33 @@
+#personalImage {
+    border-radius: 100px;
+    animation: fadein 2s;
+    box-shadow: 0px 5px 10px black;
+}
+
+#jumpButton {
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px grey;
+    display: block;
+    float: right;
+    position: fixed;
+    z-index: 9999;
+    bottom: 10%;
+    right: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    transition: opacity 200ms;
+}
+
+.hide {
+    opacity: 0;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,40 @@
+﻿@model WebServices.ServiceReferenceCities.CityDetail[]
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Latitude
+        </th>
+        <th>
+            Longitude
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.name
+        </td>
+        <td>
+            @item.coord.lat
+        </td>
+        <td>
+            @item.coord.lon
+        </td>
+    </tr>
+}
+
+</table>

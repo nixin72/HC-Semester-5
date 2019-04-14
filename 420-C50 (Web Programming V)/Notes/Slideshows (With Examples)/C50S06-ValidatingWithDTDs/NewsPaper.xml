@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NEWSPAPER>
+	<ARTICLE AUTHOR="Bill Bailey">
+		<HEADLINE>Boys Steals Camera at 9, Film at 11</HEADLINE>
+		<BYLINE>Tom</BYLINE>
+		<LEAD>Running around</LEAD>
+		<BODY>This is the main article about the headline.</BODY>
+		<NOTES>Met boy at WalMart parking lot.</NOTES>
+	</ARTICLE>
+	<ARTICLE AUTHOR="Sad Sack" EDITOR="J Jonah Jameson" DATE="2017/09/08" EDITION="City">
+		<HEADLINE>Spiderman Does It Again</HEADLINE>
+		<BYLINE>Frankie</BYLINE>
+		<LEAD>Ive got this</LEAD>
+		<BODY>It's nice to see Jameson turn purple</BODY>
+		<NOTES>Web juice.</NOTES>
+	</ARTICLE>
+</NEWSPAPER>

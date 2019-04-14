@@ -1,0 +1,190 @@
+﻿@model IEnumerable<pdumaresq_C50_A03.Models.Item>
+
+@{
+    ViewBag.Title = "Shopping Cart";
+}
+
+<style>
+    .table { width: 100%; }
+    .table tr:nth-child(2n+2) { background: #EEE; }
+    #tables > div { margin: 0 auto; }
+    #popCheckout table { margin: 0 auto; width: 80% }
+    #popCheckout h2 { margin: 0 5%; }
+
+    #tables {
+        margin: 5% 0;
+        display: flex; 
+        width: 100%;
+    }
+</style>
+
+<div id="tables">
+    <div class="item">      
+        <h2>Items</h2>  
+        <table class="table" id="list">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemCategory)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemQuantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemPrice)
+                </th>
+            </tr>
+
+            @foreach ( var item in Model ) {
+                <tr id="@item.ItemName.Replace(" ", "_")">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ItemName)
+                    </td>
+                    <td class="item-category">
+                        @Html.DisplayFor(modelItem => item.ItemCategory).ToString().Replace("_", " ")
+                    </td>
+                    <td class="quantity">
+                        @Html.DisplayFor(modelItem => item.ItemQuantity)
+                    </td>
+                    <td class="price">
+                        @Html.DisplayFor(modelItem => item.ItemPrice)
+                    </td>
+                </tr>
+            }
+        </table>
+        <div id="emptyList" style="text-align: center;">
+            You have no items in your list.
+        </div>
+    </div>
+    <div style="border: thin solid black"></div>
+    <div class="cart">
+        <h2 id="titleCart">Cart</h2>  
+        <table class="table" id="cart">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemCategory)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemQuantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemPrice)
+                </th>
+                <th></th>
+            </tr>
+        </table>
+        <div id="emptyCart" style="text-align: center;">
+            You have no items in your cart.
+        </div>
+    </div>
+</div>
+
+<div id="popCheckout" style="display: none;">  
+</div>
+
+<a id="btnCheckout" class="btn btn-primary btn-lg" >Checkout</a>
+
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+<script>
+    function calculatePrice() {
+        var quant = price = 0;
+        $(".cart .quantity").each((key, val) => {
+            quant += parseInt(val.innerText);
+            price += parseFloat($(".cart .price")[key].innerText * parseInt(val.innerText));
+        });
+        $("#popCheckout").html($(".cart").html() +
+            "<div style='display: flex; padding: 2%'>" +
+                "<p><b>Number of items: </b></p>" +
+                "<div id='pop-fill' style='margin: 0 2%'></div>" +
+            "</div>");
+        $("#pop-fill").html('<p>' + quant + '</p>');
+        $("#titleCart").text("Cart - $" + price.toFixed(2));
+    }
+    
+    (function makeDraggable() {
+        calculatePrice();
+        $(emptyCart).css("display", ($("#cart tr").size() <= 1 ? "block" : "none"));
+        $(emptyList).css("display", ($("#list tr").size() <= 1 ? "block" : "none"));
+
+        $(".table tr:not(:first-child)").each((key, elem) => {
+            $(elem).draggable({
+                appendTo: 'body',
+                containment: 'window', scroll: false,
+                overflow: 'scroll', helper: 'clone',
+            });
+        });
+
+        $(".cart").droppable({
+            drop: (e, ui) => {
+                if (!ui.draggable[0].parentNode.parentNode.parentNode.className.split(" ").includes("cart"))
+                    $(".cart .table").append($("#" + ui["draggable"][0].id).remove()[0].outerHTML);
+                makeDraggable();
+            }
+        });
+
+        $(".item").droppable({
+            drop: (e, ui) => {
+                if (!ui.draggable[0].parentNode.parentNode.parentNode.className.split(" ").includes("item"))
+                    $(".item .table").append($("#" + ui["draggable"][0].id).remove()[0].outerHTML);
+                makeDraggable();
+            }
+        });
+    })();
+
+    $("#btnCheckout").click(event => {
+        calculatePrice();
+        $("#popCheckout").dialog({
+            title: "Checkout",  resizable: false,
+            height: "auto",     width: 600,
+            modal: true,        buttons: {
+                "Confirm": function () {
+                    var deleteAll = true;
+                    $(".cart table tr").each((key, val) => {
+                        if (val.id != null && val.id != undefined && val.id != "") {
+                            $.ajax({
+                                url: "@Url.Action("Details")?name=" + val.id.replace("_", " ") + "&_=",
+                                async: false,
+                            }).done(data => {
+                                console.log(data);
+                                if (data == null || data == "null" || data == undefined || data == "")
+                                    deleteAll = false;
+                            }).fail(err => {deleteAll = false});
+                        }
+                    });
+
+                    if (deleteAll) {
+                        $(".cart table tr").each((key, val) => {
+                            if (val.id != null) {
+                                $.ajax({
+                                    url: "@Url.Action("Remove")?name=" + val.id.replace("_", " ") + "&_=",
+                                }).done(data => {
+                                    if (data == -1)
+                                        console.log("Error, could not update the list.");
+                                    else
+                                        location.href = "@Url.Action("Index")";
+                                }).fail(err => console.log(err));
+                            }
+                        });
+                    }
+                    else {
+                        $(this).html("<h2 style='margin: auto; width: 75%; text-align: center;'>The items can't be placed in your cart, they no longer exist.</h2>");
+                        $('.ui-dialog-buttonpane button:contains("Confirm")').button().hide();
+                    }
+                },
+                "Done": function () {
+                    $(this).dialog("close");
+                    $("#popCheckout").css("display", "none");
+                }
+            }
+        }).css("display", "inline");
+    });
+</script>

@@ -1,0 +1,31 @@
+
+
+.flex-container{
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+	flex-flow: column nowrap;
+}
+.flex-fixed-child{
+	flex:none;
+}
+.flex-y-scrollable-child{
+	overflow-y: scroll;
+	flex:auto;
+}
+html,body{
+	.flex-container;
+}
+nav#nav-bar {
+	.flex-fixed-child;
+}
+main#main-content {
+	.flex-y-scrollable-child;
+}
+
+@media (max-width: 800px) {
+	main#main-content{
+		overflow-y:visible;
+	}
+}

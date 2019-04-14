@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="books.css" ?>
+<BookStore>
+	<book isbn="999-99999-9-A">
+		<title>XML Primer</title>
+		<authors>
+			<author>
+				<firstName>Paul</firstName> 
+				<lastName>Deitel</lastName> 
+			</author>
+			<author>
+				<firstName>Sydney</firstName> 
+				<lastName>Laos</lastName> 
+			</author>
+		</authors>
+		
+		<chapters>
+			<preface>Welcome</preface>
+			<chapter>Easy XML</chapter>
+			<chapter>XML Entities</chapter>
+			<chapter>Entities</chapter>
+			<appendix>Supported Browsers</appendix>
+		</chapters>
+		<pages>156</pages>
+		<media type="CD" />
+	</book>
+	<book isbn="999-99999-9-A">
+		<title>Rusty Bedsprings</title>
+		<authors>
+			<author>
+				<firstName>I.P.</firstName> 
+				<lastName>Nightly</lastName> 
+			</author>
+		</authors>
+		
+		<chapters>
+			<chapter>Drink Late</chapter>
+			<chapter>Can't Wait</chapter>
+			<chapter>Too Late</chapter>
+		</chapters>
+		<pages>12</pages>
+		<media type="Print" />
+	</book>
+	<book isbn="999-99999-9-A">
+		<title>Robots</title>
+		<authors>
+			<author>
+				<firstName>Anne</firstName> 
+				<lastName>Droid</lastName> 
+			</author>
+		</authors>
+		
+		<chapters>
+			<chapter>Whirr</chapter>
+			<chapter>Ping</chapter>
+			<chapter>Pop</chapter>
+		</chapters>
+		<pages>85</pages>
+		<media type="CD" />
+	</book>
+	<book isbn="999-99999-9-A">
+		<title>Parachuting</title>
+		<authors>
+			<author>
+				<firstName>Hugo</firstName> 
+				<lastName>First</lastName> 
+			</author>
+		</authors>
+		
+		<chapters>
+			<chapter>Packing</chapter>
+			<chapter>Falling</chapter>
+			<chapter>Landing</chapter>
+			<chapter>Hospital</chapter>
+		</chapters>
+		<pages>156</pages>
+		<media type="Audio_book" />
+	</book>
+</BookStore>

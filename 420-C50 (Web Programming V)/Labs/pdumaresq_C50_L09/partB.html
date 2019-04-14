@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>REST</title>
+	</head>	
+	<body>
+		<select id="ddlPeople"></select>
+		<div id="divUserDetails" style="display: flex;">
+			<div style="text-align: right;">
+				<span>Name: </span><br />
+				<span>Email: </span><br />
+				<span>Address: </span><br />
+				<span>Company: </span><br />
+				<span>Website: </span><br />
+			</div>
+			<div id="divUserInfo" style="text-align: left;"></div>
+		</div>
+		<div id="divUserPosts"></div>
+	
+		<script>
+			function xhr(url, callback) {
+				let xhr = new XMLHttpRequest();
+				xhr.onreadystatechange = () => {
+					if (xhr.readyState == 4) 
+						callback(JSON.parse(xhr.responseText));
+				};
+				
+				xhr.open("GET", url);
+				xhr.send();
+			}
+		
+			xhr("https://jsonplaceholder.typicode.com/users", data => {
+				data.forEach(p => {
+					ddlPeople.innerHTML += "<option value='" + p["id"] + "'>" + p["username"] + "</option>";
+				});
+				
+				function fill(p) {
+					divUserInfo.innerHTML = "<span>" + p["name"] + "</span><br /><span>" + p["email"] + "</span><br />" +
+						"<span>" + p["address"]["street"] + " " + p["address"]["suite"] + "</span><br />" + 
+						"<span>" + p["company"]["name"] + "</span><br /><span>" + p["website"] + "</span>";
+						
+					xhr("https://jsonplaceholder.typicode.com/posts?userId=" + p["id"], data => {
+						divUserPosts.innerHTML = "<dl>";
+						data.forEach(d => {
+							divUserPosts.innerHTML += "<dt>" + d["title"] + "</dt><dd>" + d["body"] + "</dd>"
+						});
+						divUserPosts.innerHTML += "</dl>";
+					});
+				}
+				fill(data[ddlPeople.selectedIndex]);
+				ddlPeople.onchange = e => fill(data[ddlPeople.selectedIndex]);
+			});
+		</script>
+	</body>
+</html>

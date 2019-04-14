@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.phdum.pdumaresq_b52_a01.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--
+       *************************Present Values*******************************
+    -->
+    <TextView
+        android:id="@+id/txtFutureValue"
+        android:labelFor="@+id/edtPresentValue"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_fv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        android:textSize="@dimen/dim_fontSize"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="@dimen/dim_rightMargin"
+        android:layout_marginStart="0dp"
+        app:layout_constraintRight_toLeftOf="@+id/swiPresentFuture"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <Switch
+        android:id="@+id/swiPresentFuture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        android:layout_marginStart="171dp" />
+
+    <!--
+       *************************Future Values*******************************
+    -->
+    <TextView
+        android:id="@+id/txtPresentValue"
+        android:labelFor="@+id/edtFutureValue"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_pv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        android:textSize="@dimen/dim_fontSize"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="@dimen/dim_rightMargin"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/swiPresentFuture" />
+
+
+    <!--
+       *************************Interest Rate*******************************
+    -->
+    <EditText
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105"
+        android:id="@+id/edtValue"
+        app:layout_constraintHorizontal_bias="0.502"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/dim_fontSize"/>
+
+    <!--
+       *************************Interest Rate*******************************
+    -->
+    <TextView
+        android:labelFor="@+id/edtInterestRate"
+        android:id="@+id/txtInterestRate"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_ir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        android:textSize="@dimen/dim_fontSize"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="@dimen/dim_rightMargin"
+        app:layout_constraintRight_toLeftOf="@+id/skbInterestRate"
+        app:layout_constraintHorizontal_bias="0.777" />
+
+    <SeekBar
+        android:id="@+id/skbInterestRate"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        android:max="100"
+        android:progress="10"/>
+
+    <TextView
+        android:id="@+id/txtInterestRateValue"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        app:layout_constraintLeft_toRightOf="@+id/skbInterestRate"
+        android:layout_marginStart="@dimen/dim_rightMargin"
+        android:textSize="@dimen/dim_fontSize"/>
+
+    <!--
+       *************************Time*******************************
+    -->
+    <TextView
+        android:id="@+id/txtTimeInvested"
+        android:labelFor="@+id/edtNumYears"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_ti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        android:textSize="@dimen/dim_fontSize"
+        android:textAlignment="textEnd"
+        android:layout_marginStart="@dimen/dim_leftMargin"
+        android:layout_marginEnd="@dimen/dim_rightMargin"
+        app:layout_constraintRight_toLeftOf="@+id/skbTimeInvested"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <SeekBar
+        android:id="@+id/skbTimeInvested"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297"
+        android:max="50"
+        android:progress="10" />
+
+    <TextView
+        android:id="@+id/txtTimeInvestedValue"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintLeft_toRightOf="@+id/skbTimeInvested"
+        android:layout_marginStart="8dp"
+        android:textSize="@dimen/dim_fontSize" />
+
+    <!--
+       *************************Compound Frequency*******************************
+    -->
+    <TextView
+        android:id="@+id/txtCompoundFrequency"
+        android:labelFor="@+id/edtCompoundFrequency"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_cf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382"
+        android:textSize="@dimen/dim_fontSize"
+        android:textAlignment="textEnd"
+        android:layout_marginStart="@dimen/dim_leftMargin"
+        android:layout_marginEnd="@dimen/dim_rightMargin"
+        app:layout_constraintRight_toLeftOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/btnCalculateValue"
+        android:layout_width="@dimen/main_width"
+        android:layout_height="@dimen/main_height"
+        android:text="@string/str_calc"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColour"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strTitle"
+        android:id="@+id/tvTitle"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/txtTitle"
+        android:textSize="@dimen/lrgText"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtnTitle"
+        android:id="@+id/btnTitle"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnSample"
+        android:layout_below="@+id/tvTitle"
+        android:layout_toEndOf="@+id/btnTitle"
+        android:src="@drawable/abc_ic_menu_cut_mtrl_alpha"
+        android:background="@color/txtTitle"
+        android:contentDescription="@string/imgButton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivSample"
+        android:layout_below="@+id/btnTitle"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/balloon"
+        android:contentDescription="@string/imgView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/namePrompt"
+        android:ems="10"
+        android:id="@+id/etName"
+        android:layout_below="@+id/ivSample"
+        android:textSize="@dimen/lrgText"
+        android:layout_alignParentStart="true" />
+
+    <TextView  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/tvPrompt"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/txtTitle"
+        android:textSize="@dimen/smallText"
+        android:layout_below="@id/ivSample"
+        android:labelFor="@id/etName"
+        android:gravity="start"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

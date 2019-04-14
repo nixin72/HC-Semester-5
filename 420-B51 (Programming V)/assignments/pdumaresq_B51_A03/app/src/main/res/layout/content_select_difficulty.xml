@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a1523066.pdumaresq_b51_a03.SelectDifficulty"
+    tools:showIn="@layout/activity_select_difficulty"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/diff_title_padding"
+        android:textSize="@dimen/diff_title_size"
+        android:textAlignment="center"
+        android:text="@string/diff_select_difficulty" />
+
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/main_margin_bottom"
+        android:layout_marginStart="@dimen/main_margin_start"
+        android:layout_marginEnd="@dimen/main_margin_end"
+        android:textSize="@dimen/diff_font_size"
+        android:text="@string/diff_easy" />
+
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/main_margin_start"
+        android:layout_marginEnd="@dimen/main_margin_end"
+        android:layout_marginBottom="@dimen/main_margin_bottom"
+        android:textSize="@dimen/diff_font_size"
+        android:text="@string/diff_hard" />
+
+</LinearLayout>

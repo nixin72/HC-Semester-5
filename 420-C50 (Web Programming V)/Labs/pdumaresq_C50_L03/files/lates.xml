@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignment>
+	<course name="CSE 190 M"/>
+	<due>
+		<date>Wed Sep 8</date>
+		<time>11:30pm</time>
+	</due>
+	<submissions>
+		<submission studentid="91">
+			<date lateness="3">Sat Sep 11</date>
+			<time>11:20pm</time>
+		</submission>
+		<submission studentid="26">
+			<date lateness="0">Mon Sep 6</date>
+			<time>9:44pm</time>
+		</submission>
+		<submission studentid="193">
+			<date lateness="0">Sun Sep 5</date>
+			<time>10:29pm</time>
+		</submission>
+		<submission studentid="22">
+			<date lateness="3">Sat Sep 11</date>
+			<time>5:18pm</time>
+		</submission>
+		<submission studentid="90">
+			<date lateness="1">Thu Sep 9</date>
+			<time>11:26pm</time>
+		</submission>
+		<submission studentid="154">
+			<date lateness="0">Wed Sep 8</date>
+			<time>11:51am</time>
+		</submission>
+		<submission studentid="208">
+			<date lateness="0">Wed Sep 8</date>
+			<time>9:59pm</time>
+		</submission>
+		<submission studentid="87">
+			<date lateness="1">Thu Sep 9</date>
+			<time>8:20pm</time>
+		</submission>
+		<submission studentid="62">
+			<date lateness="3">Sat Sep 11</date>
+			<time>11:22pm</time>
+		</submission>
+		<submission studentid="57">
+			<date lateness="2">Fri Sep 10</date>
+			<time>1:00pm</time>
+		</submission>
+		<submission studentid="132">
+			<date lateness="0">Tue Sep 7</date>
+			<time>11:21am</time>
+		</submission>
+		<submission studentid="160">
+			<date lateness="1">Thu Sep 9</date>
+			<time>1:29pm</time>
+		</submission>
+		<submission studentid="60">
+			<date lateness="0">Tue Sep 7</date>
+			<time>11:03pm</time>
+		</submission>
+		<submission studentid="7">
+			<date lateness="0">Wed Sep 8</date>
+			<time>8:53pm</time>
+		</submission>
+		<submission studentid="211">
+			<date lateness="0">Wed Sep 8</date>
+			<time>8:30pm</time>
+		</submission>
+		<submission studentid="0">
+			<date lateness="0">Wed Sep 8</date>
+			<time>11:05pm</time>
+		</submission>
+	</submissions>
+</assignment>

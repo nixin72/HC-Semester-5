@@ -1,0 +1,4 @@
+<H1>This is an AJAX text file.</H1>
+<p>Even though it has html codes in it, it will be received as text.</p>
+<p>The HTML is interpreted by the browser when there are tags put in the text file</p>
+<p> Any security risk in this? </p>

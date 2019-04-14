@@ -1,0 +1,176 @@
+body {
+    background-color: #95DFFF;
+    padding-top: 62px;
+}
+
+#logo {
+    display: none;
+}
+
+
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #BBF5FF;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    box-shadow: 4px 4px 8px grey;
+}
+
+#banner {
+    background-color: #C7FFE8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.dropdown-item:hover {
+    background-color: #BBF5FF;
+}
+
+.dropdown-item:active {
+    background-color: dodgerblue;
+    color: #BBF5FF;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #FF5003;
+}
+
+a:hover {
+    color: #B22700;
+}
+
+.dropdown-menu {
+    background-color: #DAFFE4;
+    text-shadow: none;
+}
+
+#peaTitle {
+    font-size: 1.2em;
+}
+
+#logo:hover {
+    transform: scale(1.3);
+    animation: Icon 3s;
+}
+
+#backgroundInfoMobile {
+    text-align: center;
+    background-color: #BBF5FF;
+    box-shadow: 2px 2px 8px grey;
+}
+
+.nav-item:hover, .dropdown-item:hover {
+    text-shadow: 1px 1px 2px lightgrey;
+}
+
+@keyframes Icon {
+    0% {
+        transform: scale(1);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: scale(1.4);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+body{
+    background:radial-gradient(#BBF5FF ,#8dd2d9);
+}
+
+@media (max-width: 1024px) {
+    #backgroundInfoMobile {
+        display: block;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        border: 0;
+        background-color: #C7FFE8;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #peaTitle {
+        font-size: 0.8em;
+    }
+
+    body, footer {
+        font-size: 80%;
+    }
+
+    h2 {
+       font-size: 180%;
+    }
+
+    h4 {
+        font-size: 150%;
+    }
+
+    .dropdown-menu {
+        font-size: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        background: none #BBF5FF;
+    }
+
+    .content {
+        margin: 0;
+        padding: 25px;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+
+    #backgroundInfoMobile, .content {
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 70%;
+    }
+
+    .dropdown-menu {
+        font-size: 80%;
+    }
+
+    footer {
+        font-size: 67%;
+    }
+
+    #logo {
+        display: none !important;
+    }
+}
+
+
+
+
+

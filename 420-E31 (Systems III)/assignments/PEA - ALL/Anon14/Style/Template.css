@@ -1,0 +1,102 @@
+body {
+	background-color: #01B27F;
+	color: #B22700;
+}
+
+a:link {
+	color: #FF3B04;
+}
+
+a:visited {
+	color: #FF3B04;
+}
+
+a:hover {
+	color: #B22700;
+}
+
+a:active {
+	color: #B22700;
+}
+
+#pageBanner {
+	background-color: #1EFFBD;
+	border: solid #FF880D 5px;
+}
+
+#PEA_Logo {
+	padding: 0px;
+}
+
+#information {
+	
+}
+
+#name {
+	margin-top: 0px;
+}
+
+#program {
+	
+}
+
+#navigationBanner {
+	border: solid #FF880D 2px;
+	background-color: #1EFFBD;
+	padding: 0px;
+}
+
+#mainContentContainer {
+	
+}
+
+#mainContent {
+	border: solid #FF880D 3px;
+	border-style: inset;
+	background-color: #1eff46;
+	color: #3904ff;
+}
+
+#mainContentHead {
+	
+}
+
+#pageFooter {
+	border: solid #FF880D 5px;
+	background-color: #1EFFBD;
+}
+
+#copyrightText {
+	
+}
+
+.mainMenuItem {
+	display: inline-block;
+	font-size: 1.3em;
+	border-left: solid #FF880D 2px;
+	border-right: solid #FF880D 2px;
+	padding: 0px;
+}
+
+.linkItemVisible {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #1EFFBD;
+}
+
+.linkItemVisible a {
+	border: solid #FF880D 1px;
+}
+
+.linkItemInvisible {
+	display: none;
+}
+
+.menuItem {
+	width: 100%;
+	display: block;
+}
+
+

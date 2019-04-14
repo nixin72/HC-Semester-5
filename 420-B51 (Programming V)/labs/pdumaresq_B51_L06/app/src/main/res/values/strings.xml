@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pdumaresq_B51_L06</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_browse_internet">BrowseInternet</string>
+    <string name="title_activity_play_music">PlayMusic</string>
+    <string name="title_activity_other_songs">OtherSongs</string>
+</resources>

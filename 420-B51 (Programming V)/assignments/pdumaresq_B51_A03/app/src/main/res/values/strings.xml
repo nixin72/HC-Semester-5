@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">pdumaresq_B51_A03</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_difficulty">SelectDifficulty</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_play_game">PlayGame</string>
+
+    <string name="about_title">Hang Man V1.0</string>
+    <string name="about_author">Philip Dumaresq</string>
+    <string name="about_date_completed">November 15th 2017</string>
+    <string name="about_course">420-B51 / Programming V</string>
+
+    <string name="diff_select_difficulty">Select Difficulty</string>
+    <string name="diff_easy">Easy</string>
+    <string name="diff_hard">Hard</string>
+
+    <string name="game_title">Hangman</string>
+    <string name="game_wrong">Wrong guesses: </string>
+    <string name="game_guess">Guess</string>
+    <string name="game_reset">Reset Game</string>
+
+    <string name="opts_min">Minimum word length: 3</string>
+    <string name="opts_max">Maximum word length: 10</string>
+    <string name="opts_save">Save Changes</string>
+
+
+    <string name="main_play">Play Game</string>
+    <string name="main_options">Options</string>
+    <string name="main_about">About</string>
+
+
+</resources>

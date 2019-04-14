@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Review JavaScript</title>
+		<link href="styles/review_js.css" type="text/css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="container">
+			<form id="form" action="FormProcessor.html" method="GET">
+				<div class="first">
+					<div>
+						<label>Name: </label>
+						<br />
+						<br />
+						<label>Age: </label>
+						<br />
+						<br />
+						<label>Email Address: </label>
+					</div>
+					<div>
+						<input id="firstName" name="firstName" type="text" maxlength="50" size="50" />
+						<br />
+						<br />
+						<input id="myAge" name="myAge" type="text" maxlength="3" size="4" />
+						<br />
+						<br />
+						<input id="emailAddr" name="emailAddr" type="text" maxlength="60" size="60" />
+						<br />
+						<br />
+						<input id="submitButton" type="submit" value="Go For It" />
+					</div>
+				</div>
+			</form>
+			<div id="errorList"></div>
+		</div>		
+		<script src="js/review_js.js" ></script>
+	</body>
+</html>	

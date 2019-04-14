@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.qc.cegep_heritage.pdumaresq.pdumaresq_b52_l03.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_Clear"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:layout_span="2"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow android:minHeight="30dp" >
+        <TextView
+            android:id="@+id/txtAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:layout_span="4"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:background="#DDD"
+            android:textSize="@dimen/fab_font_size"/>
+    </TableRow>
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <ImageButton
+            android:id="@+id/imgBtnSquare"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/square"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCube"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/cube"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnSqrt"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/sqrt"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnInverse"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/inverse"
+            android:contentDescription="@string/content_desc" />
+    </TableRow>
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <ImageButton
+            android:id="@+id/imgBtnSeven"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/seven"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnEight"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/eight"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnNine"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            app:srcCompat="@drawable/nine"
+            android:contentDescription="@string/content_desc" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAdd"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/add" />
+    </TableRow>
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <ImageButton
+            android:id="@+id/imgBtnFour"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/four" />
+
+        <ImageButton
+            android:id="@+id/imgBtnFive"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/five" />
+
+        <ImageButton
+            android:id="@+id/imgBtnSix"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/six" />
+
+        <ImageButton
+            android:id="@+id/imgBtnMinus"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/minus" />
+    </TableRow>
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <ImageButton
+            android:id="@+id/imgBtnOne"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/one" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTwo"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/imgBtnThree"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/three" />
+
+        <ImageButton
+            android:id="@+id/imgBtnMultiply"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/mult" />
+    </TableRow>
+    <TableRow android:minHeight="@dimen/fab_min_height" >
+        <ImageButton
+            android:id="@+id/imgBtnZero"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/zero" />
+
+        <ImageButton
+            android:id="@+id/imgBtnDecimal"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/dec" />
+
+        <ImageButton
+            android:id="@+id/imgBtnEquals"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageButton
+            android:id="@+id/imgBtnDivide"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginStart="@dimen/fab_margin_side"
+            android:layout_marginEnd="@dimen/fab_margin_side"
+            android:contentDescription="@string/content_desc"
+            app:srcCompat="@drawable/div" />
+    </TableRow>
+</TableLayout>

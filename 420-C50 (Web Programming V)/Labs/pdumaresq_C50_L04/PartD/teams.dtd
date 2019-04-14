@@ -1,0 +1,25 @@
+<!--
+   Author: Philip Dumaresq
+   Date:   September 27th 2017
+
+   Filename:         teams.dtd
+   Supporting: 		 edl.xml
+-->
+
+<!ELEMENT League (Team+)>
+
+<!ELEMENT Team (Team_Name, City, Logo?, Players)>
+<!ELEMENT Team_Name (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Logo EMPTY>
+<!ELEMENT Players (Player,Player,Player,Player,Player)>
+<!ELEMENT Player (#PCDATA)>
+
+<!ATTLIST League LName CDATA #REQUIRED>
+<!ATTLIST Logo Source ENTITY #REQUIRED>
+<!ATTLIST Player Position (Center|Forward|Guard) "Center">
+<!ATTLIST Player PPG CDATA #IMPLIED>
+<!ATTLIST Player RPG CDATA #IMPLIED>
+<!ATTLIST Player Assists CDATA #IMPLIED>
+
+<!NOTATION BMP SYSTEM "image/bmp">

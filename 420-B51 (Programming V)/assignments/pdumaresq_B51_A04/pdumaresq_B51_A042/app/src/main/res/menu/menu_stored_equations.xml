@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.phdum.pdumaresq_b51_a04.MainActivity">
+    <item
+        android:id="@+id/mitmCalculator"
+        android:orderInCategory="100"
+        android:title="@string/menu_calc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmOptions"
+        android:orderInCategory="100"
+        android:title="@string/menu_options"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitmAbout"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+</menu>

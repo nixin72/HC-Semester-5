@@ -1,0 +1,150 @@
+html {
+		height: 100%;
+}
+
+
+
+body {
+		background-image: url('../images/9700.jpg');
+		padding-top: 70px;
+		padding-bottom: 70px;
+}
+
+
+/* Banner */
+.jumbotron {
+		margin-top: 0em;
+		margin-bottom: 0;
+		height: 20em;
+		padding: 0;
+}
+
+.banner-image {
+		width: 100%;
+		height: 20em;
+		
+}
+.banner-color {
+	color: white;
+	font-weight:bold;
+}
+
+.banner-text {
+	font-weight: bold;	
+}
+
+/*Navigation */
+.navbar a {
+	color: #193441 !important;
+}
+
+.navbar-font {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+	font-weight: 500;
+	
+}
+
+/* Content */
+.content {
+	background-color: #D1DBBD;
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	position: relative;
+	overflow: auto;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.content-text {
+	font-size: 1.2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.content a {
+	color: white;
+}
+
+.push-credit {
+	margin-top: 0.5em;
+}
+
+.sub-content {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+	opacity: 0.9;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+		
+}
+
+
+
+.center-text {
+	text-align:center;	
+}
+
+
+/* Dropdown Animation Slide down*/
+/*
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);  
+  
+}
+.open > .dropdown-menu li a {
+  color: #000;  
+}
+.dropdown-menu li a{
+  color: #fff;
+}
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards; 
+  -webkit-transform: scale(1, 0);
+  display: block;
+  
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+.dropup .dropdown-menu {
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;  
+}
+
+.navbar .nav > li > .dropdown-menu:after {
+
+}
+.dropup > .dropdown-menu:after {
+  border-bottom: 0;
+  border-top: 6px solid rgba(39, 45, 51, 0.9);
+  top: auto;
+  display: inline-block;
+  bottom: -6px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+*/
+@media only screen and (max-width: 768px) {
+.content {
+	width: 100%;
+}
+}

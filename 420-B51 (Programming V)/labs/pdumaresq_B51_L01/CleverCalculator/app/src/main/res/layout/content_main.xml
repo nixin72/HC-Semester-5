@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a1523066.clevercalculator.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/lblEnterVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="66dp"
+        android:text="Enter a Value"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/txtEnterVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/lblEnterVal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBottom="@+id/lblEnterVal" />
+
+    <Button
+        android:id="@+id/btnCelToFahr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblEnterVal"
+        android:layout_below="@+id/lblEnterVal"
+        android:layout_marginTop="51dp"
+        android:text="Cel to Fahr" />
+
+    <Button
+        android:id="@+id/btnCmToInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cm to Inch"
+        android:layout_alignBaseline="@+id/btnCelToFahr"
+        android:layout_alignBottom="@+id/btnCelToFahr"
+        android:layout_alignEnd="@+id/txtEnterVal"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/btnGramToOz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnCelToFahr"
+        android:layout_centerVertical="true"
+        android:text="Gram to Oz"
+        android:layout_alignEnd="@+id/btnCelToFahr" />
+
+    <Button
+        android:id="@+id/btnKgToLbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kg to Lbs"
+        android:layout_alignBaseline="@+id/btnGramToOz"
+        android:layout_alignBottom="@+id/btnGramToOz"
+        android:layout_alignStart="@+id/btnCmToInch"
+        android:layout_alignEnd="@+id/btnCmToInch" />
+
+    <CheckBox
+        android:id="@+id/chbToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnGramToOz"
+        android:layout_below="@+id/btnGramToOz"
+        android:layout_marginTop="54dp"
+        android:text="Toggle" />
+
+    <TextView
+        android:id="@+id/lblAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chbToggle"
+        android:layout_marginTop="54dp"
+        android:layout_toStartOf="@+id/btnKgToLbs"
+        android:text="Answer" />
+
+</RelativeLayout>

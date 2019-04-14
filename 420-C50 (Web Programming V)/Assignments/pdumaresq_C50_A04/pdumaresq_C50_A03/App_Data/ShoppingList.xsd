@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:simpleType name="CategoryType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Beverage" />
+      <xs:enumeration value="Bread" />
+      <xs:enumeration value="Canned Goods" />
+      <xs:enumeration value="Dairy" />
+      <xs:enumeration value="Dry Goods" />
+      <xs:enumeration value="Frozen Goods" />
+      <xs:enumeration value="Meat" />
+      <xs:enumeration value="Produce" />
+      <xs:enumeration value="Cleaners" />
+      <xs:enumeration value="Paper Goods" />
+      <xs:enumeration value="Personal Care" />
+      <xs:enumeration value="Other" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="NameType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".{0,20}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PriceType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^(([1-9]\d{0,3})|(\d))\.\d{2}$"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="ProductType">
+    <xs:sequence>
+      <xs:element name="Name" type="NameType" />
+      <xs:element name="Price" type="PriceType" />
+    </xs:sequence>
+    <xs:attribute name="Category" use="required" type="CategoryType" />
+  </xs:complexType>
+  
+  <xs:complexType name="ShoppingEntryType">
+    <xs:sequence>
+      <xs:element name="Product" type="ProductType" />
+      <xs:element name="Quantity" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="ShoppingListType">
+    <xs:sequence>
+      <xs:element name="ShoppingEntry" type="ShoppingEntryType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:element name="ShoppingList" type="ShoppingListType" />  
+</xs:schema>

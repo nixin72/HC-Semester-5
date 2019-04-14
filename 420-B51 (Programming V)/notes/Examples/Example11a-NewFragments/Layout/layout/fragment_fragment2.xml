@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="heritage.amcdonald.example11a_newfragments.Fragment2">
+
+    <TextView
+        android:text="@string/selectPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSelectedColour"
+        android:textSize="36sp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        tools:text="Select a Colour" />
+</FrameLayout>
